@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="img/favicon.ico">
+
+	<title>Highland :: Contact Us</title>
+
+	<!-- CSS Global -->
+	<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+	<!-- CSS Plugins -->
+	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+
+	<!-- CSS Custom -->
+	<link rel="stylesheet" type="text/css" href="css/elements.css"/>
+	<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+<!-- Navbar
+============= -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">The Highland</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="index.html">Home: Default</a></li>
+						<li><a href="index-slider.html">Home: Slider</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="about-us.html">About Us</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="blog-timeline.html">Blog Timeline</a></li>
+						<li><a href="blog-post.html">Blog Post</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="404.html">Error 404</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="gallery-text.html">Gallery Text Blocks</a></li>
+						<li><a href="gallery-bubbles.html">Gallery Bubbles</a></li>
+						<li><a href="gallery-item.html">Gallery Item</a></li>
+						<li><a href="pricing.html">Pricing</a></li>
+						<li><a href="team.html">Our Team</a></li>
+						<li class="divider"></li>
+						<li><a href="profile.html">Profile</a></li>
+						<li><a href="edit-profile.html">Edit Profile</a></li>
+						<li><a href="inbox.html">Inbox</a></li>
+						<li><a href="inbox-dialog.html">Inbox - Dialog</a></li>
+						<li><a href="sign-in.html">Sign In</a></li>
+						<li><a href="sign-up.html">Sign up</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">UI Elements <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="ui-elements.html#buttons">Buttons</a></li>
+						<li><a href="ui-elements.html#panels">Panels</a></li>
+						<li><a href="ui-elements.html#info-boards">Info Boards</a></li>
+						<li><a href="ui-elements.html#navs">Navs</a></li>
+						<li><a href="ui-elements.html#alerts">Alerts</a></li>
+						<li><a href="ui-elements.html#thumbnails">Thumbnails</a></li>
+						<li><a href="ui-elements.html#social">Social Icons</a></li>
+						<li><a href="ui-elements.html#section-header">Section Header</a></li>
+						<li><a href="ui-elements.html#page-tip">Page Tip</a></li>
+						<li><a href="ui-elements.html#block-header">Block Header</a></li>
+					</ul>
+				</li>
+				<li class="dropdown hidden-sm">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="blog-timeline.html">Blog Timeline</a></li>
+						<li><a href="blog-post.html">Blog Post</a></li>
+					</ul>
+				</li>
+				<li class="dropdown hidden-sm">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="gallery-text.html">Gallery Text Blocks</a></li>
+						<li><a href="gallery-bubbles.html">Gallery Bubbles</a></li>
+						<li><a href="gallery-item.html">Gallery Items</a></li>
+					</ul>
+				</li>
+				<li class="active hidden-sm hidden-md"><a href="contact.html">Contact us</a></li>
+				<!-- Profile links for extra small screens -->
+				<li class="visible-xs"><a href="sign-in.html">Sign In</a></li>
+				<li class="visible-xs"><a href="#">Sign Out</a></li>
+			</ul>
+			<!-- Search form for extra small screens -->
+			<form class="navbar-form navbar-left visible-xs" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Search">
+				</div>
+				<button type="submit" class="btn btn-blue">Go!</button>
+			</form>
+			<ul class="nav navbar-nav navbar-right hidden-xs">
+				<!-- Sign in & Sign up -->
+				<li id="sign-up" class="show"><a href="sign-up.html">Sign Up</a></li>
+				<li id="sign-in" class="show"><a href="#">Sign In</a></li>
+				<!-- Signed in. Profile Menu -->
+				<li id="cogs-menu" class="hidden">
+					<a href="edit-profile.html">
+						<i class="fa fa-gears fa-lg"></i>
+					</a>
+				</li>
+				<li id="profile-menu" class="dropdown hidden">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Administrator <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li class="account">
+							<div class="avatar"></div>
+							<p><b>Administrator</b><br/>admin@mysite.com</p>
+
+							<p><a href="profile.html">Profile</a> | <a href="#" id="sign-out">Sign out</a></p>
+
+							<div class="clearfix"></div>
+						</li>
+					</ul>
+				</li>
+				<!-- Search Button -->
+				<li id="search">
+					<a href="#" id="search-btn"><i class="fa fa-search" id="search-icon"></i> Search</a>
+
+					<div class="search-box hidden" id="search-box">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                  </span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- Main body
+================== -->
+<div class="wrapper">
+	<div class="section-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<!-- Remove the .animated class if you don't want things to move -->
+					<h1 class="animated slideInLeft"><span>Contact Us</span></h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<!-- Contact us form -->
+			<div class="col-sm-8">
+				<h2 class="hl top-zero">Contact Us</h2>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue tellus ut velit mollis
+					condimentum. Nulla egestas neque sed odio varius facilisis. Donec ac metus gravida leo dictum
+					porttitor.</p>
+				<!-- Alert message -->
+				<div class="alert" id="form_message" role="alert"></div>
+				<!-- Setting the custom theme for reCaptcha.
+					 Default themes and customization:
+					 https://developers.google.com/recaptcha/docs/customization -->
+				<script type="text/javascript">
+					var RecaptchaOptions = {
+						theme: 'custom',
+						custom_theme_widget: 'recaptcha_widget'
+					};
+				</script>
+				<!-- Please carefully read the README.txt file in order to setup
+					 the PHP contact form properly -->
+				<form role="form" id="form_sendemail">
+					<div class="form-group">
+						<label for="email">Your email address</label>
+						<input type="email" name="email" class="form-control" id="email" placeholder="E-mail"
+						       data-original-title="" title="">
+						<span class="help-block"></span>
+					</div>
+					<div class="form-group">
+						<label for="name">Your name</label>
+						<input type="text" name="name" class="form-control" id="name" placeholder="Full Name"
+						       data-original-title="" title="">
+						<span class="help-block"></span>
+					</div>
+					<div class="form-group">
+						<label for="message">Your message</label>
+						<textarea name="message" class="form-control" rows="3" id="message"
+						          placeholder="Message"></textarea>
+						<span class="help-block"></span>
+					</div>
+					<!-- reCAPTCHA -->
+					<div class="form-group" id="form-captcha">
+						<!-- Start reCAPTCHA -->
+						<div id="recaptcha_widget" style="display:none">
+							<div class="row">
+								<div class="col-xs-12 col-md-12">
+									<p>
+										<span class="recaptcha_only_if_image">Can't read the words below?</span><span
+											class="recaptcha_only_if_audio">Can't hear the sound?</span> <a
+											href="javascript:Recaptcha.reload()">Get another CAPTCHA</a> or <span
+											class="recaptcha_only_if_image"><a
+											href="javascript:Recaptcha.switch_type('audio')">try an audio
+										CAPTCHA</a></span><span class="recaptcha_only_if_audio"><a
+											href="javascript:Recaptcha.switch_type('image')">try an image
+										CAPTCHA</a></span>.
+									</p>
+									<!-- reCAPTCHA image -->
+									<div id="recaptcha_image"></div>
+									<div class="recaptcha_only_if_image">
+										Enter the words above:
+									</div>
+									<div class="recaptcha_only_if_audio">
+										Enter the numbers you hear:
+									</div>
+									<!-- reCAPTCHA input -->
+									<input class="form-control input-sm" type="text" id="recaptcha_response_field"
+									       name="recaptcha_response_field"/>
+								</div>
+							</div>
+						</div>
+						<!-- / #recaptcha_widget -->
+						<script type="text/javascript"
+						        src="http://www.google.com/recaptcha/api/challenge?k=your_public_key"> // Insert your public key here
+						</script>
+						<noscript>
+							<iframe src="http://www.google.com/recaptcha/api/noscript?k=your_public_key"
+							        height="300" width="500" frameborder="0"></iframe>
+							<br>
+                   <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+                   </textarea>
+							<input type="hidden" name="recaptcha_response_field"
+							       value="manual_challenge">
+						</noscript>
+						<!-- End reCAPTCHA -->
+						<span class="help-block"></span>
+					</div>
+					<!-- / reCAPTCHA -->
+					<button type="submit" class="btn btn-green">Contact Us</button>
+				</form>
+			</div>
+			<!-- Right column -->
+			<div class="col-sm-4">
+				<!-- Out Address -->
+				<h4>Our Address</h4>
+				<hr>
+				<p>
+					San Francisco, CA 94101<br/>
+					1987 Lincoln Street<br/>
+					Phone: +0 000 000 00 00<br/>
+					Fax: +0 000 000 00 00<br/>
+					Email: <a href="#">admin@mysite.com</a>
+				</p>
+				<hr>
+				<!-- Google Maps -->
+				<h4>Google Maps</h4>
+				<hr>
+				<div class="embed-responsive embed-responsive-4by3">
+					<iframe width="350" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+					        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=San+Francisco,+CA,+United+States&amp;aq=0&amp;oq=san+f&amp;sll=37.77493,-122.419416&amp;sspn=0.158751,0.338173&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%A1%D0%B0%D0%BD-%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%81%D0%BA%D0%BE,+%D0%9A%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D1%8F,+%D0%A1%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5+%D0%A8%D1%82%D0%B0%D1%82%D1%8B+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8&amp;t=m&amp;ll=37.774921,-122.419453&amp;spn=0.023745,0.030041&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+					<br/>
+					<small><a
+							href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=San+Francisco,+CA,+United+States&amp;aq=0&amp;oq=san+f&amp;sll=37.77493,-122.419416&amp;sspn=0.158751,0.338173&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%A1%D0%B0%D0%BD-%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%81%D0%BA%D0%BE,+%D0%9A%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D1%8F,+%D0%A1%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5+%D0%A8%D1%82%D0%B0%D1%82%D1%8B+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8&amp;t=m&amp;ll=37.774921,-122.419453&amp;spn=0.023745,0.030041&amp;z=14&amp;iwloc=A"
+							style="color:#0000FF;text-align:left">View Larger Map</a></small>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Foooter
+================== -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<!-- Contact Us
+			  =================  -->
+			<div class="col-sm-4">
+				<div class="headline"><h3>Contact us</h3></div>
+				<div class="content">
+					<p>
+						San Francisco, CA 94101<br/>
+						1987 Lincoln Street<br/>
+						Phone: +0 000 000 00 00<br/>
+						Fax: +0 000 000 00 00<br/>
+						Email: <a href="#">admin@mysite.com</a>
+					</p>
+				</div>
+			</div>
+			<!-- Social icons
+			  ===================== -->
+			<div class="col-sm-4">
+				<div class="headline"><h3>Go Social</h3></div>
+				<div class="content social">
+					<p>Stay in touch with us:</p>
+					<ul>
+						<li><a href="#"><i class="fa fa-twitter"></i></a>
+						</li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li><a href="#"><i class="fa fa-pinterest"></i></a>
+						</li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a>
+						</li>
+						<li><a href="#"><i class="fa fa-github"></i></a>
+						</li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a>
+						</li>
+						<li><a href="#"><i class="fa fa-vk"></i></a>
+						</li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!-- Subscribe
+			  =============== -->
+			<div class="col-sm-4">
+				<div class="headline"><h3>Subscribe</h3></div>
+				<div class="content">
+					<p>Enter your e-mail below to subscribe to our free newsletter.<br/>We promise not to bother you
+						often!</p>
+
+					<form class="form" role="form">
+						<div class="row">
+							<div class="col-sm-8">
+								<div class="input-group">
+									<label class="sr-only" for="subscribe-email">Email address</label>
+									<input type="email" class="form-control" id="subscribe-email"
+									       placeholder="Enter email">
+                      <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default">OK</button>
+                      </span>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Legal
+============= -->
+<div class="legal">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<p>&copy; Highland 2015. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- JavaScript
+================================================== -->
+
+<!-- JS Global -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+
+<!-- JS Plugins -->
+<script src="js/scrolltopcontrol.js"></script>
+<script src="js/contact.js"></script>
+
+<!-- JS Custom -->
+<script src="js/custom.js"></script>
+
+</body>
+</html>

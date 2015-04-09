@@ -1,5 +1,1 @@
-# Please add the TYPOScript to these files
-# - Resources/Private/TypoScript/Setup/Page.ts
-# - Resources/Private/TypoScript/Setup/Config.ts
-
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap_highland/Configuration/Theme/setup.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Configuration/TypoScript/setup.txt">

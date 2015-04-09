@@ -1,0 +1,892 @@
+/*------------------------------------------------------------------
+Project:    Highland
+Author:     Yevgeny S.
+URL:        http://simpleqode.com/
+            https://twitter.com/YevSim
+Version:    1.5.0
+Created:        11/03/2014
+Last change:    20/02/2015
+-------------------------------------------------------------------*/
+
+/* ===== Buttons ===== */
+
+.btn {
+	border-radius: 0;
+}
+
+/* 1. Default Button */
+
+.btn-default {
+	color: #333333;
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.hl-open .dropdown-toggle.btn-default {
+	color: #333333;
+	background-color: #ebebeb;
+	border-color: #adadad;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+	background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+
+/* 2. Green Button */
+
+.btn-green {
+	color: #ffffff;
+	background-color: #72a53b;
+	border-color: #72a53b;
+}
+
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active,
+.btn-green.active,
+.open .dropdown-toggle.btn-green {
+	color: #ffffff;
+	background-color: #5d8731;
+	border-color: #5d8731;
+}
+
+.btn-green:active,
+.btn-green.active,
+.open .dropdown-toggle.btn-green {
+	background-image: none;
+}
+
+.btn-green.disabled,
+.btn-green[disabled],
+fieldset[disabled] .btn-green,
+.btn-green.disabled:hover,
+.btn-green[disabled]:hover,
+fieldset[disabled] .btn-green:hover,
+.btn-green.disabled:focus,
+.btn-green[disabled]:focus,
+fieldset[disabled] .btn-green:focus,
+.btn-green.disabled:active,
+.btn-green[disabled]:active,
+fieldset[disabled] .btn-green:active,
+.btn-green.disabled.active,
+.btn-green[disabled].active,
+fieldset[disabled] .btn-green.active {
+	background-color: #AFD487;
+	border-color: #AFD487;
+}
+
+/* 3. Red Button */
+
+.btn-red {
+	color: #ffffff;
+	background-color: #E74C3C;
+	border-color: #E74C3C;
+}
+
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active,
+.btn-red.active,
+.open .dropdown-toggle.btn-red {
+	color: #ffffff;
+	background-color: #C0392B;
+	border-color: #C0392B;
+}
+
+.btn-red:active,
+.btn-red.active,
+.open .dropdown-toggle.btn-red {
+	background-image: none;
+}
+
+.btn-red.disabled,
+.btn-red[disabled],
+fieldset[disabled] .btn-red,
+.btn-red.disabled:hover,
+.btn-red[disabled]:hover,
+fieldset[disabled] .btn-red:hover,
+.btn-red.disabled:focus,
+.btn-red[disabled]:focus,
+fieldset[disabled] .btn-red:focus,
+.btn-red.disabled:active,
+.btn-red[disabled]:active,
+fieldset[disabled] .btn-red:active,
+.btn-red.disabled.active,
+.btn-red[disabled].active,
+fieldset[disabled] .btn-red.active {
+	background-color: #EF8B80;
+	border-color: #EF8B80;
+}
+
+/* 4. Blue Button */
+
+.btn-blue {
+	color: #ffffff;
+	background-color: #00B4FF;
+	border-color: #00B4FF;
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue.active,
+.open .dropdown-toggle.btn-blue {
+	color: #ffffff;
+	background-color: #009DE0;
+	border-color: #009DE0;
+}
+
+.btn-blue:active,
+.btn-blue.active,
+.open .dropdown-toggle.btn-blue {
+	background-image: none;
+}
+
+.btn-blue.disabled,
+.btn-blue[disabled],
+fieldset[disabled] .btn-blue,
+.btn-blue.disabled:hover,
+.btn-blue[disabled]:hover,
+fieldset[disabled] .btn-blue:hover,
+.btn-blue.disabled:focus,
+.btn-blue[disabled]:focus,
+fieldset[disabled] .btn-blue:focus,
+.btn-blue.disabled:active,
+.btn-blue[disabled]:active,
+fieldset[disabled] .btn-blue:active,
+.btn-blue.disabled.active,
+.btn-blue[disabled].active,
+fieldset[disabled] .btn-blue.active {
+	background-color: #5CCEFF;
+	border-color: #5CCEFF;
+}
+
+/* 5. Dark Button */
+
+.btn-dark {
+	color: #ffffff;
+	background-color: #515151;
+	border-color: #515151;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active,
+.btn-dark.active,
+.open .dropdown-toggle.btn-dark {
+	color: #ffffff;
+	background-color: #444;
+	border-color: #444;
+}
+
+.btn-dark:active,
+.btn-dark.active,
+.open .dropdown-toggle.btn-dark {
+	background-image: none;
+}
+
+.btn-dark.disabled,
+.btn-dark[disabled],
+fieldset[disabled] .btn-dark,
+.btn-dark.disabled:hover,
+.btn-dark[disabled]:hover,
+fieldset[disabled] .btn-dark:hover,
+.btn-dark.disabled:focus,
+.btn-dark[disabled]:focus,
+fieldset[disabled] .btn-dark:focus,
+.btn-dark.disabled:active,
+.btn-dark[disabled]:active,
+fieldset[disabled] .btn-dark:active,
+.btn-dark.disabled.active,
+.btn-dark[disabled].active,
+fieldset[disabled] .btn-dark.active {
+	background-color: #707070;
+	border-color: #707070;
+}
+
+/* 6. Turquoise Button */
+
+.btn-turquoise {
+	color: #ffffff;
+	background-color: #1ABC9C;
+	border-color: #1ABC9C;
+}
+
+.btn-turquoise:hover,
+.btn-turquoise:focus,
+.btn-turquoise:active,
+.btn-turquoise.active,
+.open .dropdown-toggle.btn-turquoise {
+	color: #ffffff;
+	background-color: #16A085;
+	border-color: #16A085;
+}
+
+.btn-turquoise:active,
+.btn-turquoise.active,
+.open .dropdown-toggle.btn-turquoise {
+	background-image: none;
+}
+
+.btn-turquoise.disabled,
+.btn-turquoise[disabled],
+fieldset[disabled] .btn-turquoise,
+.btn-turquoise.disabled:hover,
+.btn-turquoise[disabled]:hover,
+fieldset[disabled] .btn-turquoise:hover,
+.btn-turquoise.disabled:focus,
+.btn-turquoise[disabled]:focus,
+fieldset[disabled] .btn-turquoise:focus,
+.btn-turquoise.disabled:active,
+.btn-turquoise[disabled]:active,
+fieldset[disabled] .btn-turquoise:active,
+.btn-turquoise.disabled.active,
+.btn-turquoise[disabled].active,
+fieldset[disabled] .btn-turquoise.active {
+	background-color: #4BE7C8;
+	border-color: #4BE7C8;
+}
+
+/* 7. Amethyst Button */
+
+.btn-amethyst {
+	color: #ffffff;
+	background-color: #9B59B6;
+	border-color: #9B59B6;
+}
+
+.btn-amethyst:hover,
+.btn-amethyst:focus,
+.btn-amethyst:active,
+.btn-amethyst.active,
+.open .dropdown-toggle.btn-amethyst {
+	color: #ffffff;
+	background-color: #8E44AD;
+	border-color: #8E44AD;
+}
+
+.btn-amethyst:active,
+.btn-amethyst.active,
+.open .dropdown-toggle.btn-amethyst {
+	background-image: none;
+}
+
+.btn-amethyst.disabled,
+.btn-amethyst[disabled],
+fieldset[disabled] .btn-amethyst,
+.btn-amethyst.disabled:hover,
+.btn-amethyst[disabled]:hover,
+fieldset[disabled] .btn-amethyst:hover,
+.btn-amethyst.disabled:focus,
+.btn-amethyst[disabled]:focus,
+fieldset[disabled] .btn-amethyst:focus,
+.btn-amethyst.disabled:active,
+.btn-amethyst[disabled]:active,
+fieldset[disabled] .btn-amethyst:active,
+.btn-amethyst.disabled.active,
+.btn-amethyst[disabled].active,
+fieldset[disabled] .btn-amethyst.active {
+	background-color: #BB8ECD;
+	border-color: #BB8ECD;
+}
+
+/* ===== Panels ===== */
+
+.panel {
+	border-radius: 0;
+}
+
+.panel-heading {
+	border-radius: 0;
+}
+
+.panel-footer {
+	border-radius: 0;
+}
+
+.panel-group .panel {
+	border-radius: 0;
+}
+
+/* 1. Panel Green */
+
+.panel-green {
+	border-color: #72a53b;
+}
+
+.panel-green > .panel-heading {
+	color: #fff;
+	background-color: #72a53b;
+	border-color: #72a53b;
+}
+
+.panel-green > .panel-heading + .panel-collapse .panel-body {
+	border-top-color: #72a53b;
+}
+
+.panel-green > .panel-footer + .panel-collapse .panel-body {
+	border-bottom-color: #72a53b;
+}
+
+.panel-green > .panel-footer {
+	background-color: #72a53b;
+	border-top: 1px solid #72a53b;
+}
+
+/* 2. Panel Blue */
+
+.panel-blue {
+	border-color: #00B4FF;
+}
+
+.panel-blue > .panel-heading {
+	color: #ffffff;
+	background-color: #00B4FF;
+	border-color: #00B4FF;
+}
+
+.panel-blue > .panel-heading + .panel-collapse .panel-body {
+	border-top-color: #00B4FF;
+}
+
+.panel-blue > .panel-footer + .panel-collapse .panel-body {
+	border-bottom-color: #00B4FF;
+}
+
+.panel-blue > .panel-footer {
+	background-color: #00B4FF;
+	border-top: 1px solid #00B4FF;
+}
+
+/* 3. Panel Dark */
+
+.panel-dark {
+	border-color: #515151;
+}
+
+.panel-dark > .panel-heading {
+	color: #ffffff;
+	background-color: #515151;
+	border-color: #515151;
+}
+
+.panel-dark > .panel-heading + .panel-collapse .panel-body {
+	border-top-color: #515151;
+}
+
+.panel-dark > .panel-footer + .panel-collapse .panel-body {
+	border-bottom-color: #515151;
+}
+
+.panel-dark > .panel-footer {
+	background-color: #515151;
+	border-top: 1px solid #515151;
+}
+
+/* 4. Panel Red */
+
+.panel-red {
+	border-color: #E74C3C;
+}
+
+.panel-red > .panel-heading {
+	color: #ffffff;
+	background-color: #E74C3C;
+	border-color: #E74C3C;
+}
+
+.panel-red > .panel-heading + .panel-collapse .panel-body {
+	border-top-color: #E74C3C;
+}
+
+.panel-red > .panel-footer + .panel-collapse .panel-body {
+	border-bottom-color: #E74C3C;
+}
+
+.panel-red > .panel-footer {
+	background-color: #E74C3C;
+	border-top: 1px solid #E74C3C;
+}
+
+/* 5. Panel Turquoise */
+
+.panel-turquoise {
+	border-color: #1ABC9C;
+}
+
+.panel-turquoise > .panel-heading {
+	color: #ffffff;
+	background-color: #1ABC9C;
+	border-color: #1ABC9C;
+}
+
+.panel-turquoise > .panel-heading + .panel-collapse .panel-body {
+	border-top-color: #1ABC9C;
+}
+
+.panel-turquoise > .panel-footer + .panel-collapse .panel-body {
+	border-bottom-color: #1ABC9C;
+}
+
+.panel-turquoise > .panel-footer {
+	background-color: #1ABC9C;
+	border-top: 1px solid #1ABC9C;
+}
+
+/* 6. Panel Amethyst */
+
+.panel-amethyst {
+	border-color: #8E44AD;
+}
+
+.panel-amethyst > .panel-heading {
+	color: #ffffff;
+	background-color: #8E44AD;
+	border-color: #8E44AD;
+}
+
+.panel-amethyst > .panel-heading + .panel-collapse .panel-body {
+	border-top-color: #8E44AD;
+}
+
+.panel-amethyst > .panel-footer + .panel-collapse .panel-body {
+	border-bottom-color: #8E44AD;
+}
+
+.panel-amethyst > .panel-footer {
+	background-color: #8E44AD;
+	border-top: 1px solid #8E44AD;
+}
+
+/* 7. Panel Dummy */
+
+.panel-dummy {
+	border-color: #DDD;
+}
+
+.panel-dummy > .panel-heading {
+	color: #333;
+	background-color: #FFF;
+	border-color: #FFF;
+}
+
+.panel-dummy > .panel-heading + .panel-collapse .panel-body {
+	border-top-color: #FFF;
+}
+
+.panel-dummy > .panel-footer + .panel-collapse .panel-body {
+	border-bottom-color: #FFF;
+}
+
+.panel-dummy > .panel-footer {
+	background-color: #FFF;
+	border-top: 1px solid #FFF;
+}
+
+/* ===== Info Boards ==== */
+
+.info-board {
+	margin: 20px 0;
+	padding: 15px 30px 15px 15px;
+	border-left: 5px solid #eee;
+}
+
+/* 1. Info board green */
+
+.info-board-green {
+	background-color: #F5FAF0;
+	border-color: #72a53b;
+}
+
+.info-board h4 {
+	margin-top: 0;
+}
+
+.info-board p:last-child {
+	margin-bottom: 0;
+}
+
+/* 2. Info board blue */
+
+.info-board-blue {
+	background-color: #EBF9FF;
+	border-color: #00B4FF;
+}
+
+.info-board h4 {
+	margin-top: 0;
+}
+
+.info-board p:last-child {
+	margin-bottom: 0;
+}
+
+/* 3. Info board red */
+
+.info-board-red {
+	background-color: #FBF0EE;
+	border-color: #E74C3C;
+}
+
+.info-board h4 {
+	margin-top: 0;
+}
+
+.info-board p:last-child {
+	margin-bottom: 0;
+}
+
+/* 4. Info board orange */
+
+.info-board-orange {
+	background-color: #FFF2EB;
+	border-color: #FFA973;
+}
+
+.info-board h4 {
+	margin-top: 0;
+}
+
+.info-board p:last-child {
+	margin-bottom: 0;
+}
+
+/* ===== Forms ===== */
+
+.form-control {
+	border-radius: 0; /* */
+}
+
+/* ===== Navs ===== */
+
+/* 1. Nav tabs */
+
+.nav-tabs {
+	margin-bottom: 15px;
+}
+
+.nav-tabs > li > a {
+	border-bottom: 1px solid #dedede;
+	border-radius: 0;
+	background: #f5f5f5;
+}
+
+/* 2. Nav pills */
+
+.nav-pills {
+	margin-bottom: 15px;
+}
+
+.nav-pills > li > a {
+	border-radius: 0;
+}
+
+.nav-pills > li > a {
+	background-color: #f5f5f5;
+}
+
+.nav-pills-green > li.active > a,
+.nav-pills-green > li.active > a:hover,
+.nav-pills-green > li.active > a:focus {
+	background-color: #72a53b;
+}
+
+.nav-pills-blue > li.active > a,
+.nav-pills-blue > li.active > a:hover,
+.nav-pills-blue > li.active > a:focus {
+	background-color: #00B4FF;
+}
+
+.nav-pills-dark > li.active > a,
+.nav-pills-dark > li.active > a:hover,
+.nav-pills-dark > li.active > a:focus {
+	background-color: #515151;
+}
+
+.nav-pills-red > li.active > a,
+.nav-pills-red > li.active > a:hover,
+.nav-pills-red > li.active > a:focus {
+	background-color: #E74C3C;
+}
+
+.nav-pills-turquoise > li.active > a,
+.nav-pills-turquoise > li.active > a:hover,
+.nav-pills-turquoise > li.active > a:focus {
+	background-color: #1ABC9C;
+}
+
+.nav-pills-amethyst > li.active > a,
+.nav-pills-amethyst > li.active > a:hover,
+.nav-pills-amethyst > li.active > a:focus {
+	background-color: #9B59B6;
+}
+
+/* ===== Alerts ===== */
+
+.alert {
+	border-radius: 0;
+}
+
+/* ===== Thumbnails ===== */
+
+.thumbnail {
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+}
+
+.thumbnail > img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	padding: 10px;
+	border: 1px solid #eee;
+}
+
+a.thumbnail:hover img,
+a.thumbnail:focus img {
+	border-color: #ccc;
+}
+
+.thumbnail > img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.thumbnail .caption {
+	padding: 10px;
+	color: #333333;
+}
+
+.thumbnail .caption h4 {
+	text-transform: uppercase;
+}
+
+.thumbnail .caption .rating {
+	margin-bottom: 10px;
+}
+
+.thumbnail .caption .rating i {
+	color: #F7C41F;
+	font-size: 18px;
+}
+
+/* ===== Page Tip ===== */
+
+.page-tip {
+	background: #fff;
+	-webkit-box-shadow: 0 0 16px 0 rgba(50, 50, 50, 0.3);
+	-moz-box-shadow: 0 0 16px 0 rgba(50, 50, 50, 0.3);
+	box-shadow: 0 0 16px 0 rgba(50, 50, 50, 0.3);
+	color: #515151;
+	margin-bottom: 50px;
+	padding: 15px 0;
+}
+
+.page-tip p {
+	margin: 0;
+}
+
+/* ===== Section headers ===== */
+
+.section-header {
+	background: #f5f5f5;
+	border-bottom: 1px solid #dedede;
+	padding: 15px 0;
+	margin-bottom: 50px;
+}
+
+.section-header h1 {
+	color: #666;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+}
+
+.section-header h1 span {
+	border-bottom: 5px solid #00B4FF;
+	padding-bottom: 10px;
+}
+
+/* ===== Block header ===== */
+
+.block-header h2 {
+	margin: 40px 0;
+	font-size: 24px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #515151;
+	text-transform: uppercase;
+	background: #eee;
+}
+
+.block-header h2 .title {
+	background: #fff;
+	padding: 0 15px 0 0;
+}
+
+.block-header h2 .decoration {
+	background: #fff;
+	padding-left: 3px;
+	margin-left: 5px;
+}
+
+/* ===== Lead ===== */
+
+.lead {
+	font-weight: 300;
+}
+
+/* ===== Social links ===== */
+
+.social-icons {
+	margin-bottom: 15px;
+}
+
+.social-icons ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.social-icons ul li {
+	text-align: center;
+	float: left;
+	margin: 0 5px 5px 0;
+	opacity: 0.5;
+	transition: 0.1s;
+	-webkit-transition: 0.1s;
+	-moz-transition: 0.1s;
+}
+
+.social-icons-small ul li {
+	height: 20px;
+	width: 20px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.social-icons-default ul li {
+	height: 30px;
+	width: 30px;
+	font-size: 22px;
+	line-height: 30px;
+}
+
+.social-icons-large ul li {
+	height: 40px;
+	width: 40px;
+	font-size: 28px;
+	line-height: 40px;
+}
+
+.social-icons ul li:hover {
+	opacity: 1;
+	transition: 0.1s;
+	-webkit-transition: 0.1s;
+	-moz-transition: 0.1s;
+}
+
+.social-icons ul li a {
+	color: #FFF;
+	display: block;
+}
+
+.social-icons ul li.rss {
+	background: #ff9900;
+}
+
+.social-icons ul li.facebook {
+	background: #3B5998;
+}
+
+.social-icons ul li.twitter {
+	background: #1dcaff;
+}
+
+.social-icons ul li.plus {
+	background: #dd4b39;
+}
+
+.social-icons ul li.vk {
+	background: #3f628a;
+}
+
+.social-icons ul li.pinterest {
+	background: #c92026;
+}
+
+.social-icons ul li.vimeo {
+	background: #446d82;
+}
+
+.social-icons ul li.github {
+	background: #657e8c;
+}
+
+.social-icons ul li.linkedin {
+	background: #0c7bb3;
+}
+
+.social-icons ul li.dropbox {
+	background: #4fa3e3;
+}
+
+/* ===== Tags ===== */
+
+.tags > a {
+	padding: 3px 4px;
+	margin: 4px 4px 4px 0;
+	background: #f5f5f5;
+	border: 1px solid #dedede;
+	border-width: 0 1px 1px 0;
+	color: #515151;
+	text-decoration: none;
+	font-size: 0.9em;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+.tags > a:hover {
+	background: #00B4FF;
+	color: #FFF;
+	border-color: #00B4FF;
+}
+
+.tags > a:before {
+	font-family: FontAwesome;
+	content: "\f02b";
+	color: #999;
+	margin-right: 5px;
+}
+
+.tags > a:hover:before {
+	color: #FFF;
+}

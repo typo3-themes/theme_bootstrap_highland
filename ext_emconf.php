@@ -34,16 +34,14 @@ $EM_CONF[$_EXTKEY] = array(
 	'CGLcompliance_note' => '',
 	'constraints' => array(
 		'depends' => array(
-            'php' => '5.2.0-0.0.0',
-            'typo3' => '6.2.0-6.2.99',
-            'themes' => '2.1.0-2.3.99',
-            'theme_bootstrap' => '0.1.0-0.0.0',
-            'themes_gridelements' => '0.1.0-1.0.0',
+			'php' => '5.2.0-0.0.0',
+			'typo3' => '6.2.0-6.2.99',
+			'themes' => '2.1.0-2.3.99',
+			'theme_bootstrap' => '0.1.0-0.0.0',
+			'themes_gridelements' => '0.1.0-1.0.0',
 		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
-		),
+		'conflicts' => array(),
+		'suggests' => array(),
 	),
 	'_md5_values_when_last_written' => 'a:0:{}',
 );

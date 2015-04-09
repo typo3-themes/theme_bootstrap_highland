@@ -20,3 +20,78 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+SOURCES AND CREDITS
+===================
+
+We've used the following third party images, icons, and other files listed:
+
+General
+-------
+
+1. Bootstrap
+
+URL:        http://getbootstrap.com/
+AUTHOR:     @mdo and @fat
+LICENSE:    MIT License
+
+2. Font Awesome
+
+URL:        http://fontawesome.io/
+AUTHOR:     Dave Gandy
+LICENSE:    MIT license
+
+
+CSS Files: 
+----------
+
+1. CSS Animation
+
+URL:        https://daneden.me/animate/
+AUTHOR:     Dan Eden
+LICENSE:    MIT license
+
+
+JS Plugins
+----------
+
+1. Scroll to top script
+
+URL:        http://www.dynamicdrive.com/dynamicindex3/scrolltop.htm
+AUTHOR:     Dynamic Drive
+LICENSE:    http://www.dynamicdrive.com/notice.htm
+
+2. Isotope
+
+URL:        http://isotope.metafizzy.co/
+AUTHOR:     David DeSandro
+LICENSE:    Commercial Developer Lisence (licenses/isotope_commercial_developer_license.pdf)
+
+3. Imagesloaded
+
+URL:        http://imagesloaded.desandro.com/
+AUTHOR:     https://github.com/desandro/imagesloaded/graphs/contributors
+LICENSE:    MIT license
+
+
+Images
+------
+
+1. Showcase
+
+URL: http://www.pixeden.com/psd-web-elements/responsive-showcase-psd
+AUTHOR: Pixeden.com
+LICENSE: Royalty free for use in both personal and commercial projects
+
+2. Pictures: 
+
+Showcase: 
+
+URL: http://www.flickr.com/photos/8106459@N07/3060682780/sizes/o/in/photostream/
+AUTHOR: David-O
+LICENSE: Creative Commons
+
+Other:
+
+URL: http://www.flickr.com/photos/xjrlokix/
+AUTHOR: Ben Fredericson
+LICENSE: Creative Commons
