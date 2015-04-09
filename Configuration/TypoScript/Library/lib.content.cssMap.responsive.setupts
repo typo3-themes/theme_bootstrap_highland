@@ -1,0 +1,30 @@
+lib.content.cssMap.responsive {
+
+	medium-default =
+	medium-inline = visible-md-inline
+	medium-inline-block = visible-md-inline-block
+	medium-block = visible-md-block
+	medium-hidden = hidden-md
+
+	#Small Size Visibility for each element
+	small-default =
+	small-inline = visible-sm-inline
+	small-inline-block = visible-sm-inline-block
+	small-block = visible-sm-block
+	small-hidden = hidden-sm
+
+	#Extra Small Size Visibility for each element
+	extrasmall-default =
+	extrasmall-inline = visible-xs-inline
+	extrasmall-inline-block = visible-xs-inline-block
+	extrasmall-block = visible-xs-block
+	extrasmall-hidden = hidden-xs
+
+	#Extra Large Size Visibility for each element
+	large-default =
+	large-inline = visible-lg-inline
+	large-inline-block = visible-lg-inline-block
+	large-block = visible-lg-block
+	large-hidden = hidden-lg
+
+}

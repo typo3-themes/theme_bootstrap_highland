@@ -1,0 +1,16 @@
+lib.content.cssMap.variants {
+
+	# Variants available for each element
+	alert-success = alert alert-success
+	alert-info = alert alert-info
+	alert-warning = alert alert-warning
+	alert-danger = alert alert-danger
+	wide-screen = jumbotron
+
+	framed = well
+	framed-small = well well-sm
+	framed-large = well well-lg
+
+	# Variants only for header content elements
+	page-header = page-header
+}

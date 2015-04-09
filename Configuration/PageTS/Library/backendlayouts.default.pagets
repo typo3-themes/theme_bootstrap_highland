@@ -1,0 +1,11 @@
+backendlayouts {
+	ContentEmpty >
+	ContentMenu >
+	ContentMenuSidebar >
+	ContentSidebarMenu >
+	ContentSpecial >
+	MenuSidebarContent >
+	SidebarContent >
+	SidebarContentMenu >
+	SidebarMenuContent >
+}

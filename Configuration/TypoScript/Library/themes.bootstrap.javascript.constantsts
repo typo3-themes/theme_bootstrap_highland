@@ -1,0 +1,11 @@
+
+
+# customsubcategory=400=ScrollSpy
+
+themes.configuration.bootstrap.javascript {
+	# cat=bootstrap,expert/400/gray-base; type=string; label=ScrollSpy: target
+	scrollspy.target = body
+	# cat=bootstrap,expert/400/gray-darker; type=int+; label=ScrollSpy: offset
+	scrollspy.offset = 0
+
+}

@@ -1,0 +1,46 @@
+lib.content.cssMap.behaviour {
+	#behaviour-container = container
+	#behaviour-table-responsive = table-responsive
+	#accordion {
+	#	behaviour-accordion-first-open = accordion-first-open
+	#}
+	#tabs {
+	#	navigation {
+	#		behaviour-navigation = nav
+	#		behaviour-navigation-pills = nav-pills
+	#		behaviour-navigation-tabs = nav-tabs
+	#	}
+	#	panes {
+	#		behaviour-tab-pane = tab-pane
+	#		behaviour-fade-in = fade in
+	#		behaviour-active = active
+	#	}
+	#}
+
+	container = container
+	fade-in = fade in
+	screenreader-only = sr-only
+	screenreader-only-focusable = sr-only-focusable
+	print-hidden = hidden-print
+	print-visible-block = visible-print-block
+	print-visible-inline = visible-print-inline
+	print-visible-inline-block = visible-print-inline-block
+	table-responsive = table-responsive
+	
+	
+	accordion {
+		accordion-first-open = accordion-first-open
+	}
+	tabs {
+		navigation {
+			navigation = nav
+			navigation-pills = nav-pills
+			navigation-tabs = nav-tabs
+		}
+		panes {
+			tab-pane = tab-pane
+			fade-in = fade in
+			active = active
+		}
+	}
+}

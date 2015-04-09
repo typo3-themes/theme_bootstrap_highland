@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.0">
+	<file source-language="en"
+		datatype="plaintext"
+		original="messages"
+		date="2014-04-13T18:20:51Z"
+		product-name="theme_bootstrap_highland">
+		<header/>
+		<body>
+			<trans-unit id="breadcrumb_label" xml:space="preserve">
+				<source>You are here</source>
+			</trans-unit>
+			<trans-unit id="languageMenu_label" xml:space="preserve">
+				<source>Language:</source>
+			</trans-unit>
+			<trans-unit id="imprint_label" xml:space="preserve">
+				<source>Imprint</source>
+			</trans-unit>
+			<!--
+				Hier können nun beliebig viele
+				weitere Sprachwerte äquivalent
+				zum trans-unit Tag folgen.
+
+				English?
+			-->
+
+
+
+			<!-- Responsive devices labels -->
+			<trans-unit id="content.responsive.devices.desktop" xml:space="preserve">
+				<source>Desktop</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.devices.mobile" xml:space="preserve">
+				<source>Mobile</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.devices.tablet" xml:space="preserve">
+				<source>Tablet</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.devices.large" xml:space="preserve">
+				<source>Large</source>
+			</trans-unit>
+			
+			
+			<!-- Responsive visibility labels -->
+			<trans-unit id="content.responsive.visibility.default" xml:space="preserve">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.visibility.inline" xml:space="preserve">
+				<source>Inline</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.visibility.inline_block" xml:space="preserve">
+				<source>Inline-Block</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.visibility.block" xml:space="preserve">
+				<source>Block</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.visibility.hidden" xml:space="preserve">
+				<source>Hidden</source>
+			</trans-unit>
+
+
+			<!-- Variants labels -->
+			<trans-unit id="content.variants.page_header" xml:space="preserve">
+				<source>Page-Header</source>
+			</trans-unit>
+			<trans-unit id="content.variants.wide_screen" xml:space="preserve">
+				<source>Wide-Screen</source>
+			</trans-unit>
+			<trans-unit id="content.variants.framed" xml:space="preserve">
+				<source>Framed</source>
+			</trans-unit>
+			<trans-unit id="content.variants.framed_small" xml:space="preserve">
+				<source>Framed (small)</source>
+			</trans-unit>
+			<trans-unit id="content.variants.framed_large" xml:space="preserve">
+				<source>Framed (large)</source>
+			</trans-unit>
+			<trans-unit id="content.variants.alert_success" xml:space="preserve">
+				<source>Alert-Success</source>
+			</trans-unit>
+			<trans-unit id="content.variants.alert_info" xml:space="preserve">
+				<source>Alert-Info</source>
+			</trans-unit>
+			<trans-unit id="content.variants.alert_warning" xml:space="preserve">
+				<source>Alert-Warning</source>
+			</trans-unit>
+			<trans-unit id="content.variants.alert_danger" xml:space="preserve">
+				<source>Alert-Error</source>
+			</trans-unit>
+
+			<!-- Behaviours labels -->
+			<trans-unit id="content.behaviour.container" xml:space="preserve">
+				<source>Container</source>
+			</trans-unit>
+			<trans-unit id="content.behaviour.container_fluid" xml:space="preserve">
+				<source>Container (fluid)</source>
+			</trans-unit>
+			<trans-unit id="content.behaviour.fade_in" xml:space="preserve">
+				<source>Fade in</source>
+			</trans-unit>
+			<trans-unit id="content.behaviour.screenreader_only" xml:space="preserve">
+				<source>Screenreader only</source>
+			</trans-unit>
+			<trans-unit id="content.behaviour.screenreader_only_focusable" xml:space="preserve">
+				<source>Screenreader only (focusable)</source>
+			</trans-unit>
+			<trans-unit id="content.behaviour.print_hidden" xml:space="preserve">
+				<source>Hidden for printing</source>
+			</trans-unit>
+			<trans-unit id="content.behaviour.print_visible_block" xml:space="preserve">
+				<source>Visible for printing (block)</source>
+			</trans-unit>
+			<trans-unit id="content.behaviour.print_visible_inline" xml:space="preserve">
+				<source>Visible for printing (inline)</source>
+			</trans-unit>
+			<trans-unit id="content.behaviour.print_visible_inline_block" xml:space="preserve">
+				<source>Visible for printing (inline-block)</source>
+			</trans-unit>
+			<trans-unit id="content.behaviour.table_responsive" xml:space="preserve">
+				<source>Responsive table</source>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>
