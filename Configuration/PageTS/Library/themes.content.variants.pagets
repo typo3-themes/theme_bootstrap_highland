@@ -1,0 +1,38 @@
+themes {
+	content {
+		# Variants for content elements
+		variants {
+			default {
+				social = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.social
+			}
+
+			# Special variant for Header
+			# Used by ctype header
+			# Will be merged with default
+			header {
+				infoboard-success = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_success
+				infoboard-info = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_info
+				infoboard-warning = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_warning
+				infoboard-danger = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_danger
+			}
+
+			# ctype: text
+			text {
+				infoboard-success = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_success
+				infoboard-info = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_info
+				infoboard-warning = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_warning
+				infoboard-danger = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_danger
+			}
+
+			# ctype: gridelements_pi1
+			gridelements_pi1 {
+				container {
+					infoboard-success = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_success
+					infoboard-info = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_info
+					infoboard-warning = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_warning
+					infoboard-danger = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_danger
+				}
+			}
+		}
+	}
+}

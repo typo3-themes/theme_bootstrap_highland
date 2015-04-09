@@ -1,0 +1,31 @@
+# Insert colPos 0 in main content
+lib.content.main = COA
+lib.content.main {
+	50.slide = -1
+}
+
+# Insert colPos 1 in menu content
+lib.content.menu = COA
+lib.content.menu {
+	50.slide = -1
+	50.slide.collect = -1
+	50.slide.collectReverse = 1
+}
+
+# Insert colPos 2 in menu content
+lib.content.sidebar {
+	50.slide = -1
+}
+
+# Insert colPos 3 in feature content
+lib.content.feature {
+	50.slide = -1
+}
+
+# Insert colPos 4 in extended content
+lib.content.extended {
+	wrap = <footer>|</footer>
+	50.slide = -1
+}
+
+tt_content.stdWrap.innerWrap.cObject.default.20.10.value = csc-default content

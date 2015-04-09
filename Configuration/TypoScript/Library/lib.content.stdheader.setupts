@@ -1,0 +1,20 @@
+lib.stdheader {
+	10 {
+		6 = TEXT
+		6 {
+			current = 1
+			dataWrap = <div class="block-header"><h2{register:headerClass}><span class="title">|</span><span class="decoration"></span><span class="decoration"></span><span class="decoration"></span></h2></div>
+		}
+
+		7 = TEXT
+		7 {
+			current = 1
+			dataWrap = <div class="row"><div class="col-md-12 block-header"><h2{register:headerClass}><span class="title">|</span><span class="decoration"></span><span class="decoration"></span><span class="decoration"></span></h2></div></div>
+		}
+	}
+
+	stdWrap {
+		dataWrap = <div class="headline csc-header csc-header-n{cObj:parentRecordNumber}">|</div>
+		dataWrap.override = <header class="headline csc-header csc-header-n{cObj:parentRecordNumber}">|</header>
+	}
+}

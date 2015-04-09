@@ -1,12 +1,13 @@
-
 plugin.tx_themes {
 	view {
 		templateRootPaths {
 			300 = EXT:theme_bootstrap_highland/Resources/Private/Templates/
 		}
+
 		partialRootPaths {
 			300 = EXT:theme_bootstrap_highland/Resources/Private/Partials/
 		}
+
 		layoutRootPaths {
 			300 = EXT:theme_bootstrap_highland/Resources/Private/Layouts/
 		}
@@ -22,6 +23,7 @@ plugin.tx_themes {
 		}
 	}
 }
+
 config.tx_extbase {
 	view {
 		widget {

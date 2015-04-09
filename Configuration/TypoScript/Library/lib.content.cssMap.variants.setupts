@@ -1,16 +1,8 @@
 lib.content.cssMap.variants {
+	infoboard-success = info-board info-board-green
+	infoboard-info = info-board info-board-blue
+	infoboard-warning = info-board info-board-orange
+	infoboard-danger = info-board info-board-red
 
-	# Variants available for each element
-	alert-success = alert alert-success
-	alert-info = alert alert-info
-	alert-warning = alert alert-warning
-	alert-danger = alert alert-danger
-	wide-screen = jumbotron
-
-	framed = well
-	framed-small = well well-sm
-	framed-large = well well-lg
-
-	# Variants only for header content elements
-	page-header = page-header
+	social = social
 }

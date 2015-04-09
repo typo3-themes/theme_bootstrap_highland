@@ -118,10 +118,10 @@ h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
 #wrap,
 #hp-slider {
 	height: 480px;
-	background: url(../img/bg3.jpg) no-repeat center center;
+	background: url(../Images/bg3.jpg) no-repeat center center;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg3.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg3.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../Images/bg3.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../Images/bg3.jpg', sizingMethod='scale')";
 	border-bottom: 1px solid #eee;
 	color: #fff;
 }
@@ -268,6 +268,14 @@ h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
 .services__item:hover .services-item__body {
 	background: #69D2E7;
 	color: white;
+}
+
+#topcontrol {
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	opacity: 1;
+	cursor: pointer;
 }
 
 @media (min-width: 768px) {

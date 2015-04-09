@@ -33,7 +33,7 @@ themes.configuration.footer.copyright.rightLabel = &nbsp;&copy; TYPO3-Themes Tea
 #############################################
 
 # cat=footer,advanced/logo_main/; type=string; label= Footer logo: Path and filename (fileadmin/.../logo.png)
-themes.configuration.footer.logo.main.file = EXT:theme_bootstrap_highland/Resources/Public/Images/logo.png
+themes.configuration.footer.logo.main.file = EXT:theme_bootstrap/Resources/Public/Images/logo.png
 
 # cat=footer,expert/logo_main/; type=int+; label= Footer logo: Width
 themes.configuration.footer.logo.main.width = 110

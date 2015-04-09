@@ -15,17 +15,20 @@ lib.menu.special.1 {
 		wrapItemAndSub.insertData = 1
 		wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.special.prefixFirstLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.special.prefixFirstLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.special.prefixFirstLevel}|</li>
 	}
+
 	ACT < .NO
 	ACT {
 		wrapItemAndSub.insertData = 1
 		wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.special.prefixFirstLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.special.prefixFirstLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.special.prefixFirstLevel}|</li>
 	}
+
 	IFSUB < .NO
 	IFSUB {
 		wrapItemAndSub.insertData = 1
 		wrapItemAndSub = <li class="state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.special.prefixFirstLevel}|</li>|*|<li class="state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.special.prefixFirstLevel}|</li>|*|<li class="state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.special.prefixFirstLevel}|</li>
 		doNotLinkIt = 1
 	}
+
 	ACTIFSUB < .ACT
 	ACTIFSUB {
 		wrapItemAndSub.insertData = 1
@@ -33,6 +36,7 @@ lib.menu.special.1 {
 		doNotLinkIt = 1
 	}
 }
+
 lib.menu.special.2 = TMENU
 lib.menu.special.2 {
 	expAll = 0
@@ -43,6 +47,7 @@ lib.menu.special.2 {
 		wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.special.prefixSecondLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.special.prefixSecondLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.special.prefixSecondLevel}|</li>
 		stdWrap.field = title
 	}
+
 	ACT < .NO
 	ACT {
 		wrapItemAndSub.insertData = 1

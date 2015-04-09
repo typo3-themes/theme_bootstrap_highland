@@ -1,12 +1,11 @@
 lib.content.cssMap.responsive.column {
-	
 	equalHeight {
 		medium-equalHeight = col-md-height
 		small-equalHeight = col-sm-height
 		extrasmall-equalHeight = col-xs-height
 		large-equalHeight = col-lg-height
 	}
-	
+
 	#Medium Size Width
 	medium-width-1 = col-md-1
 	medium-width-2 = col-md-2

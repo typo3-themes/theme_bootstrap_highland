@@ -1,6 +1,5 @@
 page {
-	
-	# Overwrite thmes_gridelements body-tag
+	# Overwrite themes_gridelements body-tag
 	# in order to add bootstraps scroll spy
 	bodyTagCObject = TEXT
 	bodyTagCObject.field = uid

@@ -12,11 +12,13 @@ lib.menu.main {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
 		}
+
 		ACT < .NO
 		ACT {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
 		}
+
 		IFSUB < .NO
 		IFSUB {
 			wrapItemAndSub.insertData = 1
@@ -25,6 +27,7 @@ lib.menu.main {
 			after = <b class="caret"></b></a>
 			doNotLinkIt = {$themes.configuration.menu.main.doNotLinkFirstLevelPagesWithSubPages}
 		}
+
 		ACTIFSUB < .ACT
 		ACTIFSUB {
 			wrapItemAndSub.insertData = 1
@@ -34,6 +37,7 @@ lib.menu.main {
 			doNotLinkIt = {$themes.configuration.menu.main.doNotLinkFirstLevelPagesWithSubPages}
 		}
 	}
+
 	2 = TMENU
 	2 {
 		expAll = 0
@@ -43,6 +47,7 @@ lib.menu.main {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixSecondLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixSecondLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixSecondLevel}|</li>
 		}
+
 		ACT < .NO
 		ACT {
 			wrapItemAndSub.insertData = 1

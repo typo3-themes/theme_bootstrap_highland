@@ -27,6 +27,7 @@ lib.menu.breadcrumb {
 				ATagParams.insertData = 1
 				stdWrap.wrap = <span itemprop="title">|</span>
 			}
+
 			wrap = <ul id="menuBreadcrumb" class="{$themes.configuration.menu.breadcrumb.cssClasses}"><li class="prefix"><span>{$themes.configuration.menu.breadcrumb.prefix}</span></li>|</ul>
 		}
 	}

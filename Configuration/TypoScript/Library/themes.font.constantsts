@@ -2,7 +2,8 @@
 # #customcategory=font=Theme: Font settings
 
 
-themes.configuration.font.fontFilePath = 
+# cat=font,expert//; type=string; label=Font: Font path
+themes.configuration.font.fontFilePath = http://fonts.googleapis.com/css?family=Lato:100,300,400
 
 # cat=font,expert//; type=string; label=Font: Icon-Font path
 themes.configuration.font.icon.fontFilePath = /typo3conf/ext/theme_bootstrap_highland/Resources/Public/Contrib/Bootstrap/fonts/

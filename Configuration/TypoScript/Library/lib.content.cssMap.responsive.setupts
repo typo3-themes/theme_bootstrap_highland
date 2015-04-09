@@ -1,5 +1,4 @@
 lib.content.cssMap.responsive {
-
 	medium-default =
 	medium-inline = visible-md-inline
 	medium-inline-block = visible-md-inline-block
@@ -26,5 +25,4 @@ lib.content.cssMap.responsive {
 	large-inline-block = visible-lg-inline-block
 	large-block = visible-lg-block
 	large-hidden = hidden-lg
-
 }

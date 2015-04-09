@@ -18,7 +18,7 @@ themes.configuration.header.email = demo@typo3-themes.org
 #############################################
 
 # cat=header,advanced/logo_main/; type=string; label= Header-Logo: Path and filename (fileadmin/.../logo.png)
-themes.configuration.header.logo.main.file = EXT:theme_bootstrap_highland/Resources/Public/Images/logo.png
+themes.configuration.header.logo.main.file = EXT:theme_bootstrap/Resources/Public/Images/logo.png
 
 # cat=header,expert/logo_main/; type=int+; label= Header-Logo: Width
 themes.configuration.header.logo.main.width = 40
@@ -32,7 +32,7 @@ themes.configuration.header.logo.main.height =
 #############################################
 
 # cat=header,advanced/logo_special/; type=string; label= Special-Logo: Path and filename (fileadmin/.../logo.png)
-themes.configuration.header.logo.special.file = EXT:theme_bootstrap_highland/Resources/Public/Images/logo.png
+themes.configuration.header.logo.special.file = EXT:theme_bootstrap/Resources/Public/Images/logo.png
 
 # cat=header,expert/logo_special/; type=int+; label= Special-Logo: Width
 themes.configuration.header.logo.special.width = 40
