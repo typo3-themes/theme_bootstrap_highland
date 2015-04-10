@@ -3,7 +3,6 @@ backendlayouts {
 	ContentMenu >
 	ContentMenuSidebar >
 	ContentSidebarMenu >
-	ContentSpecial >
 	MenuSidebarContent >
 	SidebarContent >
 	SidebarContentMenu >

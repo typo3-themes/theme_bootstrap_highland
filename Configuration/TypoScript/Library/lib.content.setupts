@@ -29,3 +29,4 @@ lib.content.extended {
 }
 
 tt_content.stdWrap.innerWrap.cObject.default.20.10.value = csc-default content
+tt_content.image.20.1.layout.data.element = <img src="###SRC###"###SOURCECOLLECTION######PARAMS######ALTPARAMS######SELFCLOSINGTAGSLASH### class="img-responsive">

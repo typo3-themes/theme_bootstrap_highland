@@ -9,36 +9,36 @@ Highland Bootstrap Theme
 ===========================
 
 :Rendered:
-				      |today|
+					      |today|
 
 :Classification:
-				      theme_bootstrap_highland
+					      theme_bootstrap_highland
 
 :Keywords:
-				      forEditors, forAdmins, forBeginners, forIntermediates
+					      forEditors, forAdmins, forBeginners, forIntermediates
 
 :Author:
-				      Jo Hasenau
+					      Jo Hasenau
 
 :Email:
-				      info@cybercraft.de
+					      info@cybercraft.de
 
 
 
 
 :Language:
-				      en
+					      en
 
 
 
 .. toctree::
 :maxdepth: 5
 	   :titlesonly:
-				   :glob:
+					   :glob:
 
 
-				   ../Resources/Private/Elements/Readme.rst
-				   ../Resources/Private/TypoScript/Constants/Readme.rst
-				   ../Resources/Private/TypoScript/Library/Readme.rst
-				   ../Resources/Private/TypoScript/Nodes/Readme.rst
-				   ../Resources/Private/TypoScript/Setup/Readme.rst
+					   ../Resources/Private/Elements/Readme.rst
+					   ../Resources/Private/TypoScript/Constants/Readme.rst
+					   ../Resources/Private/TypoScript/Library/Readme.rst
+					   ../Resources/Private/TypoScript/Nodes/Readme.rst
+					   ../Resources/Private/TypoScript/Setup/Readme.rst

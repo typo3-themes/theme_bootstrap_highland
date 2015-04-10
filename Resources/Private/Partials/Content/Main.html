@@ -7,15 +7,23 @@
 
 			<f:if condition="{0:templateName} == {0:'ContentStartsite'}">
 				<f:then>
-					<!-- Don't use the H1-Headline, because in 
+					<!-- Don't use the H1-Headline, because in
 					Startsite-Layout the H1 wrapped already the logo -->
 				</f:then>
 				<f:else>
-					<div class="page-header">
-						<h1>
-							<f:cObject typoscriptObjectPath="lib.page.title"/>
-						</h1>
-					</div>
+					<f:if condition="{0:templateName} == {0:'ContentSpecial'}">
+						<f:then>
+							<!-- Don't use the H1-Headline, because in
+							Special-Layout the H1 wrapped already the logo -->
+						</f:then>
+						<f:else>
+							<div class="page-header">
+								<h1>
+									<f:cObject typoscriptObjectPath="lib.page.title"/>
+								</h1>
+							</div>
+						</f:else>
+					</f:if>
 				</f:else>
 			</f:if>
 

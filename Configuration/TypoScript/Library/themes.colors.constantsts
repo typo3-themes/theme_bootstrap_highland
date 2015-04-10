@@ -11,13 +11,13 @@
 #############################################
 
 # cat=colors,basic/general/; type=color; label= Primary color
-themes.configuration.colors.primary = #FF8700
+themes.configuration.colors.primary = #00B4FF
 
 # cat=colors,basic/general/; type=color; label= Secondary color
 themes.configuration.colors.secondary = #26A345
 
 # cat=colors,basic/general/; type=color; label= Link color
-themes.configuration.colors.link = #FF8700
+themes.configuration.colors.link = #337AB7
 
 # cat=colors,basic/general/; type=color; label= Text color
 themes.configuration.colors.text = #000

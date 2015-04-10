@@ -12,7 +12,7 @@ themes.configuration.meta.defaults.keywords = TYPO3, Theme, Bootstrap
 themes.configuration.meta.defaults.description = TYPO3 Bootstrap Theme
 
 # cat=meta,basic/default/; type=string; label= Default author
-themes.configuration.meta.defaults.author = TYPO3 Themes-Team
+themes.configuration.meta.defaults.author = TYPO3 Themes-Team - Design by YevSim
 
 # cat=meta,basic/default/; type=string; label= Default author email
 themes.configuration.meta.defaults.authorEmail = team@typo3-themes.org

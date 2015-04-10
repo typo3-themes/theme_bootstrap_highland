@@ -1,18 +1,20 @@
 {namespace theme=KayStrobach\Themes\ViewHelpers}
-<!-- theme_bootstrap_highland: Layouts/Special.html [begin] -->
+<!-- theme_bootstrap_highland: Layouts/Startsite.html [begin] -->
 <div id="layoutDefault">
-
-	<div id="menuMain" class="navbar navbar-default navbar-fixed-top">
+	<div id="menuMain" class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 				<div id="logoWrapper" class="navbar-brand">
-					<f:cObject typoscriptObjectPath="lib.header.logo.main"/>
+					<h1>
+						<f:cObject typoscriptObjectPath="lib.header.logo.main"/>
+					</h1>
 				</div>
 				<button data-target="#navbar-main" data-toggle="collapse" type="button" class="navbar-toggle">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
+				<a class="navbar-brand" href="/">The Highland</a>
 			</div>
 			<div id="navbar-main" class="navbar-collapse collapse">
 				<f:cObject typoscriptObjectPath="lib.menu.main"/>
@@ -34,24 +36,15 @@
 		</div>
 	</div>
 
-	<div class="container">
-		<section id="areaFeature" class="page-header">
-			<f:cObject typoscriptObjectPath="lib.content.feature"/>
-		</section>
-
-		<main id="areaMain" class="row">
-			<div id="menuBreadcrumbWrapper">
-				<span><f:translate key="breadcrumb_label"/></span>
-				<f:cObject typoscriptObjectPath="lib.menu.breadcrumb"/>
-			</div>
+	<div class="wrapper">
+		<f:cObject typoscriptObjectPath="lib.content.feature"/>
+		<div class="container">
 			<f:render section="Default"/>
-		</main>
-
-		<section id="areaExtended" class="row">
-			<f:cObject typoscriptObjectPath="lib.content.extended"/>
-		</section>
+		</div>
 	</div>
+
+	<f:cObject typoscriptObjectPath="lib.content.extended"/>
 
 	<f:render partial="Area/Footer" section="Default" arguments="{_all}"/>
 </div>
-<!-- theme_bootstrap_highland: Layouts/Special.html [end] -->
+<!-- theme_bootstrap_highland: Layouts/Startsite.html [end] -->

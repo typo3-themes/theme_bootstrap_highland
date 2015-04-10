@@ -40,6 +40,10 @@ h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
 
 /* ===== Navbar ===== */
 
+#menuMain {
+	height: auto;
+}
+
 .navbar-inverse {
 	background-color: #515151;
 	border: none;
@@ -116,7 +120,7 @@ h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
 /* ===== Showcase ===== */
 
 #wrap,
-#hp-slider {
+.hp-slider {
 	height: 480px;
 	background: url(../Images/bg3.jpg) no-repeat center center;
 	background-size: cover;
@@ -127,7 +131,7 @@ h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
 }
 
 #wrap h1,
-#hp-slider h1 {
+.hp-slider h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	font-size: 48px;
@@ -691,6 +695,13 @@ img.img-about {
 	border: 1px solid #eee;
 	float: left;
 	margin: 0 20px 20px 0;
+}
+
+div.csc-textpic .csc-textpic-imagewrap img.img-responsive,
+img.img-responsive {
+	padding: 0.5em;
+	border: 1px solid #EEE;
+	background: #F8F8F8;
 }
 
 /* ===== Media objects ===== */
@@ -1580,7 +1591,7 @@ li.account p {
 	}
 
 	/* Index page background */
-	#wrap h1, #hp-slider h1 {
+	#wrap h1, .hp-slider h1 {
 		font-size: 32px;
 		margin: 70px 0 0 0;
 		text-align: center;

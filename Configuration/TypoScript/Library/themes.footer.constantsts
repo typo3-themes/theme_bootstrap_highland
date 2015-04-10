@@ -25,7 +25,7 @@ themes.configuration.footer.email = info@typo3-themes.org
 themes.configuration.footer.copyright.leftLabel =
 
 # cat=footer,advanced/copyright/; type=string; label= Copyright label in right of year
-themes.configuration.footer.copyright.rightLabel = &nbsp;&copy; TYPO3-Themes Team
+themes.configuration.footer.copyright.rightLabel = &nbsp;&copy; TYPO3-Themes Team - Design by YevSim
 
 
 
