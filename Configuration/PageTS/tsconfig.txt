@@ -1,3 +1,4 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Configuration/PageTS/tsconfig.txt">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_highland/Configuration/PageTS/Library/" extensions="pagets">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_highland/Configuration/BackendLayouts/" extensions="pagets">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_highland/Configuration/Elements/PageTS/" extensions="pagets">

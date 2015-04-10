@@ -4,33 +4,7 @@
 		<!-- theme_bootstrap_highland: Partials/Content/Main.html [begin] -->
 
 		<div id="partialContentMain" class="content-column">
-
-			<f:if condition="{0:templateName} == {0:'ContentStartsite'}">
-				<f:then>
-					<!-- Don't use the H1-Headline, because in
-					Startsite-Layout the H1 wrapped already the logo -->
-				</f:then>
-				<f:else>
-					<f:if condition="{0:templateName} == {0:'ContentSpecial'}">
-						<f:then>
-							<!-- Don't use the H1-Headline, because in
-							Special-Layout the H1 wrapped already the logo -->
-						</f:then>
-						<f:else>
-							<div class="page-header">
-								<h1>
-									<f:cObject typoscriptObjectPath="lib.page.title"/>
-								</h1>
-							</div>
-						</f:else>
-					</f:if>
-				</f:else>
-			</f:if>
-
-			<!--TYPO3SEARCH_begin-->
 			<f:cObject typoscriptObjectPath="lib.content.main"/>
-			<!--TYPO3SEARCH_end-->
-
 		</div>
 
 		<!-- theme_bootstrap_highland: Partials/Content/Main.html [end] -->

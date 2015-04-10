@@ -27,6 +27,26 @@ h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
 	text-transform: none;
 }
 
+.csc-header > h2, .csc-header > h3, .csc-header > h4, .csc-header > h5, .csc-header > h6 {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+}
+
+.csc-header > h2, .csc-header > h3, .csc-header > h4, .csc-header > h5, .csc-header > h6 {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+}
+
+.csc-header {
+	margin-top: 30px;
+}
+
+.csc-header-n1 {
+	margin-top: 0px;
+}
+
 /* ===== Sticky Footer Trick ===== */
 
 .wrapper {
@@ -1201,11 +1221,6 @@ footer a {
 footer a:hover {
 	color: #81D685;
 	text-decoration: none;
-}
-
-footer .headline {
-	border-bottom: 1px dotted white;
-	margin-bottom: 20px;
 }
 
 footer .headline h3 {

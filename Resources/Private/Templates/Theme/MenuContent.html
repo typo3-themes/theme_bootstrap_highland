@@ -5,20 +5,16 @@
 		<!-- theme_bootstrap: Templates/Theme/MenuContent.html [begin] -->
 
 		<div id="templateMenuContent">
-			<div class="row">
-
-				<!--
-					Pay attention to the responsive behaviour!
-					The menu column will slide to top
-					when it switch into mobile view.  -->
-
-				<div id="contentMenu" class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-					<f:render partial="Content/Menu" section="Default" arguments="{_all}"/>
+			<f:render partial="Content/Header" section="Default" arguments="{_all}"/>
+			<div class="container">
+				<div class="row">
+					<div id="contentMenu" class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<f:render partial="Content/Menu" section="Default" arguments="{_all}"/>
+					</div>
+					<div id="contentMain" class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+						<f:render partial="Content/Main" section="Default" arguments="{_all}"/>
+					</div>
 				</div>
-				<div id="contentMain" class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
-					<f:render partial="Content/Main" section="Default" arguments="{_all}"/>
-				</div>
-
 			</div>
 		</div>
 

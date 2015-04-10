@@ -5,7 +5,10 @@
 		<!-- theme_bootstrap: Templates/Theme/Content.html [begin] -->
 
 		<div id="templateContent">
-			<f:render partial="Content/Main" section="Default" arguments="{_all}"/>
+			<f:render partial="Content/Header" section="Default" arguments="{_all}"/>
+			<div class="container">
+				<f:render partial="Content/Main" section="Default" arguments="{_all}"/>
+			</div>
 		</div>
 
 		<!-- theme_bootstrap: Templates/Theme/Content.html [end] -->
