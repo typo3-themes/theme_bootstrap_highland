@@ -23,8 +23,10 @@ h1.hl, h2.hl, h3.hl, h4.hl, h5.hl, h6.hl {
 	text-transform: uppercase;
 }
 
-footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.hl {
-	colorr: #FFFFFF;
+footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.hl,
+.wrapper > .carousel h1.hl, .wrapper > .carousel h2.hl, .wrapper > .carousel h3.hl, .wrapper > .carousel h4.hl, .wrapper > .carousel h5.hl, .wrapper > .carousel h6.hl,
+#wrap h1.hl, #wrap h2.hl, #wrap h3.hl, #wrap h4.hl, #wrap h5.hl, #wrap h6.hl {
+	color: #FFFFFF;
 }
 
 h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
@@ -37,18 +39,18 @@ h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
 	margin-bottom: 20px;
 }
 
-.csc-header > h2, .csc-header > h3, .csc-header > h4, .csc-header > h5, .csc-header > h6 {
-	padding-bottom: 20px;
-	border-bottom: 1px solid #eee;
-	margin-bottom: 20px;
-}
-
 .csc-header {
 	margin-top: 30px;
 }
 
-.csc-header-n1 {
+.csc-header-n1, .info-board .csc-header {
 	margin-top: 0px;
+}
+
+.info-board .csc-header > h2, .info-board .csc-header > h3, .info-board .csc-header > h4, .info-board .csc-header > h5, .info-board .csc-header > h6 {
+	padding-bottom: 0px;
+	border-bottom: 0px;
+	margin-bottom: 1em;
 }
 
 /* ===== Sticky Footer Trick ===== */
