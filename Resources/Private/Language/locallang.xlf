@@ -23,6 +23,10 @@
 			<trans-unit id="content.variants.infoboard_danger" xml:space="preserve">
 				<source>Infoboard-Error</source>
 			</trans-unit>
+
+			<trans-unit id="content.behaviour.team_listing" xml:space="preserve">
+				<source>Team listing</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

@@ -27,6 +27,12 @@
 				<source>Infoboard-Error</source>
 				<target>Infoboard-Fehler</target>
 			</trans-unit>
+
+			<trans-unit id="content.behaviour.team_listing" xml:space="preserve">
+				<source>Team listing</source>
+				<target>Team-Liste</target>
+			</trans-unit>
+
 		</body>
 	</file>
 </xliff>

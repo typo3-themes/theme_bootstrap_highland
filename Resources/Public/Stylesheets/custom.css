@@ -858,6 +858,7 @@ img.img-responsive {
 }
 
 /* ===== Team ===== */
+.csc-textpic-intext-left-nowrap,
 .member-left {
 	text-align: left;
 	margin-bottom: 25px;
@@ -865,6 +866,7 @@ img.img-responsive {
 	border-bottom: 1px dotted #eee;
 }
 
+.csc-textpic-intext-right-nowrap,
 .member-right {
 	text-align: right;
 	margin-bottom: 25px;
@@ -872,23 +874,36 @@ img.img-responsive {
 	border-bottom: 1px dotted #eee;
 }
 
-.team img,
+.team .csc-textpic .csc-textpic-imagewrap img.img-responsive,
+.team img.img-responsive,
 .team img {
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
+	background: none;
+	padding: 0px;
+	border: 0px;
 }
 
+.team .csc-textpic-intext-left-nowrap img,
 .team .member-left img {
 	float: left;
 	margin-right: 50px;
 }
 
+.team .csc-textpic-intext-right-nowrap img,
 .team .member-right img {
 	float: right;
 	margin-left: 50px;
 }
 
+.team .csc-textpic-intext-left-nowrap .csc-textpic-text,
+.team .csc-textpic-intext-right-nowrap .csc-textpic-text {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.team h5,
 .team .position {
 	color: #ccc;
 }

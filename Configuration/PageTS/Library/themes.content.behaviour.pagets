@@ -1,43 +1,12 @@
 themes {
 	content {
-		# Behaviour for content elements
 		behaviour {
-			default {
-				container = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.container
-				container-fluid = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.container_fluid
-				fade-in = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.fade_in
-				screenreader-only = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.screenreader_only
-				screenreader-only-focusable = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.screenreader_only_focusable
-				print-hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.print_hidden
-				print-visible-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.print_visible_block
-				print-visible-inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.print_visible_inline
-				print-visible-inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.print_visible_inline_block
-			}
-
-			table {
-				table-responsive = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.table_responsive
-			}
-
 			gridelements_pi1 {
-				#accordion-first-open = Open first accordion panel
-				#navigation-pills = Pills navigation
-				#navigation-tabs = Tabs navigation
-
-				default {
-					navigation-pills = Pills navigation
-					navigation-tabs = Tabs navigation
+				singleColumn {
+					team = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.behaviour.team_listing
 				}
-
-				accordion {
-					accordion-first-open = Open first accordion panel
-				}
-
-				carousel {
-
-				}
-
-				tabs {
-
+				singleColumnHorizontal {
+					team = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.behaviour.team_listing
 				}
 			}
 		}

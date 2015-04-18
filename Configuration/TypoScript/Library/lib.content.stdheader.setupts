@@ -1,5 +1,8 @@
 lib.stdheader {
-	3.headerClass.cObject.stdWrap.noTrimWrap = | class="hl |"|
+	3.headerClass.cObject.stdWrap {
+		noTrimWrap = | class="hl |"|
+		required >
+	}
 	10 {
 		key.ifEmpty >
 		default = TEXT
