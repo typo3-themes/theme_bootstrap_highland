@@ -93,3 +93,10 @@ $('.user-status > form > button').on('click', function () {
 	$(".user-status > form").toggleClass("hidden show");
 	return false;
 });
+
+// Add dismissable buttons
+// =======================
+
+$(document).ready(function () {
+	$('.alert-dismissable').prepend('<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>');
+});
