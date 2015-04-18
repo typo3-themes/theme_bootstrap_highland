@@ -877,9 +877,9 @@ img.img-responsive {
 .team .csc-textpic .csc-textpic-imagewrap img.img-responsive,
 .team img.img-responsive,
 .team img {
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
+	max-width: 150px;
+	max-height: 150px;
+	border-radius: 75px;
 	background: none;
 	padding: 0px;
 	border: 0px;
