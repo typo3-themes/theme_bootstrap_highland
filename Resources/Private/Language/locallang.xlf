@@ -11,6 +11,11 @@
 			<trans-unit id="content.variants.social" xml:space="preserve">
 				<source>Social Media Icons</source>
 			</trans-unit>
+
+			<trans-unit id="content.variants.alert_dismissable" xml:space="preserve">
+				<source>Alert dismissable</source>
+			</trans-unit>
+
 			<trans-unit id="content.variants.infoboard_success" xml:space="preserve">
 				<source>Infoboard-Success</source>
 			</trans-unit>

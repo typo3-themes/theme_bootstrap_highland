@@ -10,6 +10,7 @@ themes {
 			# Used by ctype header
 			# Will be merged with default
 			header {
+				alert-dismissable = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.alert_dismissable
 				infoboard-success = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_success
 				infoboard-info = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_info
 				infoboard-warning = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_warning
@@ -18,6 +19,7 @@ themes {
 
 			# ctype: text
 			text {
+				alert-dismissable = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.alert_dismissable
 				infoboard-success = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_success
 				infoboard-info = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_info
 				infoboard-warning = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_warning
@@ -27,6 +29,7 @@ themes {
 			# ctype: gridelements_pi1
 			gridelements_pi1 {
 				container {
+					alert-dismissable = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.alert_dismissable
 					infoboard-success = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_success
 					infoboard-info = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_info
 					infoboard-warning = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_warning

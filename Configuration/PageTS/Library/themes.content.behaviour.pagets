@@ -1,6 +1,9 @@
 themes {
 	content {
 		behaviour {
+			default {
+
+			}
 			gridelements_pi1 {
 				singleColumn {
 					team = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.behaviour.team_listing

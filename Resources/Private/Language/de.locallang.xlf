@@ -11,6 +11,12 @@
 				<source>Social Media Icons</source>
 				<target>Icons für soziale Medien</target>
 			</trans-unit>
+
+			<trans-unit id="content.variants.alert_dismissable" xml:space="preserve">
+				<source>Alert dismissable</source>
+				<target>Meldung ausblendbar</target>
+			</trans-unit>
+
 			<trans-unit id="content.variants.infoboard_success" xml:space="preserve">
 				<source>Infoboard-Success</source>
 				<target>Infoboard-Erfolg</target>
