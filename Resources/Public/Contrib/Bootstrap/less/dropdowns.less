@@ -49,24 +49,24 @@
   //
   // Deprecated as of 3.1.0 in favor of `.dropdown-menu-[dir]`
   &.pull-right {
-	right: 0;
-	left: auto;
+    right: 0;
+    left: auto;
   }
 
   // Dividers (basically an hr) within the dropdown
   .divider {
-	.nav-divider(@dropdown-divider-bg);
+    .nav-divider(@dropdown-divider-bg);
   }
 
   // Links within the dropdown menu
   > li > a {
-	display: block;
-	padding: 3px 20px;
-	clear: both;
-	font-weight: normal;
-	line-height: @line-height-base;
-	color: @dropdown-link-color;
-	white-space: nowrap; // prevent links from randomly breaking onto new lines
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: @line-height-base;
+    color: @dropdown-link-color;
+    white-space: nowrap; // prevent links from randomly breaking onto new lines
   }
 }
 
@@ -74,9 +74,9 @@
 .dropdown-menu > li > a {
   &:hover,
   &:focus {
-	text-decoration: none;
-	color: @dropdown-link-hover-color;
-	background-color: @dropdown-link-hover-bg;
+    text-decoration: none;
+    color: @dropdown-link-hover-color;
+    background-color: @dropdown-link-hover-bg;
   }
 }
 
@@ -85,10 +85,10 @@
   &,
   &:hover,
   &:focus {
-	color: @dropdown-link-active-color;
-	text-decoration: none;
-	outline: 0;
-	background-color: @dropdown-link-active-bg;
+    color: @dropdown-link-active-color;
+    text-decoration: none;
+    outline: 0;
+    background-color: @dropdown-link-active-bg;
   }
 }
 
@@ -100,17 +100,17 @@
   &,
   &:hover,
   &:focus {
-	color: @dropdown-link-disabled-color;
+    color: @dropdown-link-disabled-color;
   }
 
   // Nuke hover/focus effects
   &:hover,
   &:focus {
-	text-decoration: none;
-	background-color: transparent;
-	background-image: none; // Remove CSS gradient
-	.reset-filter();
-	cursor: @cursor-disabled;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none; // Remove CSS gradient
+    .reset-filter();
+    cursor: @cursor-disabled;
   }
 }
 
@@ -118,12 +118,12 @@
 .open {
   // Show the menu
   > .dropdown-menu {
-	display: block;
+    display: block;
   }
 
   // Remove the outline when :focus is triggered
   > a {
-	outline: 0;
+    outline: 0;
   }
 }
 
@@ -182,15 +182,15 @@
 .navbar-fixed-bottom .dropdown {
   // Reverse the caret
   .caret {
-	border-top: 0;
-	border-bottom: @caret-width-base solid;
-	content: "";
+    border-top: 0;
+    border-bottom: @caret-width-base solid;
+    content: "";
   }
   // Different positioning for bottom up menu
   .dropdown-menu {
-	top: auto;
-	bottom: 100%;
-	margin-bottom: 1px;
+    top: auto;
+    bottom: 100%;
+    margin-bottom: 1px;
   }
 }
 
@@ -200,13 +200,13 @@
 
 @media (min-width: @grid-float-breakpoint) {
   .navbar-right {
-	.dropdown-menu {
-	  .dropdown-menu-right();
-	}
-	// Necessary for overrides of the default right aligned menu.
-	// Will remove come v4 in all likelihood.
-	.dropdown-menu-left {
-	  .dropdown-menu-left();
-	}
+    .dropdown-menu {
+      .dropdown-menu-right();
+    }
+    // Necessary for overrides of the default right aligned menu.
+    // Will remove come v4 in all likelihood.
+    .dropdown-menu-left {
+      .dropdown-menu-left();
+    }
   }
 }

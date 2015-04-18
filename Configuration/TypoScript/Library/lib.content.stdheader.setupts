@@ -7,6 +7,7 @@ lib.stdheader {
 			current = 1
 			dataWrap = <h2 class="hl top-zero">|</h2>
 		}
+
 		6 = TEXT
 		6 {
 			current = 1

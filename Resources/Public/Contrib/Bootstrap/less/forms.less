@@ -138,14 +138,14 @@ output {
   &[disabled],
   &[readonly],
   fieldset[disabled] & {
-	cursor: @cursor-disabled;
-	background-color: @input-bg-disabled;
-	opacity: 1; // iOS fix for unreadable disabled content
+    cursor: @cursor-disabled;
+    background-color: @input-bg-disabled;
+    opacity: 1; // iOS fix for unreadable disabled content
   }
 
   // Reset height for `textarea`s
   textarea& {
-	height: auto;
+    height: auto;
   }
 }
 
@@ -172,21 +172,21 @@ input[type="search"] {
   input[type="time"],
   input[type="datetime-local"],
   input[type="month"] {
-	line-height: @input-height-base;
+    line-height: @input-height-base;
   }
 
   input[type="date"].input-sm,
   input[type="time"].input-sm,
   input[type="datetime-local"].input-sm,
   input[type="month"].input-sm {
-	line-height: @input-height-small;
+    line-height: @input-height-small;
   }
 
   input[type="date"].input-lg,
   input[type="time"].input-lg,
   input[type="datetime-local"].input-lg,
   input[type="month"].input-lg {
-	line-height: @input-height-large;
+    line-height: @input-height-large;
   }
 }
 
@@ -211,11 +211,11 @@ input[type="search"] {
   margin-bottom: 10px;
 
   label {
-	min-height: @line-height-computed; // Ensure the input doesn't jump when there is no text
-	padding-left: 20px;
-	margin-bottom: 0;
-	font-weight: normal;
-	cursor: pointer;
+    min-height: @line-height-computed; // Ensure the input doesn't jump when there is no text
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
   }
 }
 
@@ -259,7 +259,7 @@ input[type="checkbox"] {
   &[disabled],
   &.disabled,
   fieldset[disabled] & {
-	cursor: @cursor-disabled;
+    cursor: @cursor-disabled;
   }
 }
 
@@ -268,7 +268,7 @@ input[type="checkbox"] {
 .checkbox-inline {
   &.disabled,
   fieldset[disabled] & {
-	cursor: @cursor-disabled;
+    cursor: @cursor-disabled;
   }
 }
 
@@ -277,9 +277,9 @@ input[type="checkbox"] {
 .checkbox {
   &.disabled,
   fieldset[disabled] & {
-	label {
-	  cursor: @cursor-disabled;
-	}
+    label {
+      cursor: @cursor-disabled;
+    }
   }
 }
 
@@ -297,8 +297,8 @@ input[type="checkbox"] {
 
   &.input-lg,
   &.input-sm {
-	padding-left: 0;
-	padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -327,7 +327,7 @@ input[type="checkbox"] {
 
   // Ensure icons don't overlap text
   .form-control {
-	padding-right: (@input-height-base * 1.25);
+    padding-right: (@input-height-base * 1.25);
   }
 }
 
@@ -374,10 +374,10 @@ input[type="checkbox"] {
 .has-feedback label {
 
   & ~ .form-control-feedback {
-	top: (@line-height-computed + 5); // Height of the `label` and its margin
+    top: (@line-height-computed + 5); // Height of the `label` and its margin
   }
   &.sr-only ~ .form-control-feedback {
-	top: 0;
+    top: 0;
   }
 }
 
@@ -408,71 +408,71 @@ input[type="checkbox"] {
 
   // Kick in the inline
   @media (min-width: @screen-sm-min) {
-	// Inline-block all the things for "inline"
-	.form-group {
-	  display: inline-block;
-	  margin-bottom: 0;
-	  vertical-align: middle;
-	}
+    // Inline-block all the things for "inline"
+    .form-group {
+      display: inline-block;
+      margin-bottom: 0;
+      vertical-align: middle;
+    }
 
-	// In navbar-form, allow folks to *not* use `.form-group`
-	.form-control {
-	  display: inline-block;
-	  width: auto; // Prevent labels from stacking above inputs in `.form-group`
-	  vertical-align: middle;
-	}
+    // In navbar-form, allow folks to *not* use `.form-group`
+    .form-control {
+      display: inline-block;
+      width: auto; // Prevent labels from stacking above inputs in `.form-group`
+      vertical-align: middle;
+    }
 
-	// Make static controls behave like regular ones
-	.form-control-static {
-	  display: inline-block;
-	}
+    // Make static controls behave like regular ones
+    .form-control-static {
+      display: inline-block;
+    }
 
-	.input-group {
-	  display: inline-table;
-	  vertical-align: middle;
+    .input-group {
+      display: inline-table;
+      vertical-align: middle;
 
-	  .input-group-addon,
-	  .input-group-btn,
-	  .form-control {
-		width: auto;
-	  }
-	}
+      .input-group-addon,
+      .input-group-btn,
+      .form-control {
+        width: auto;
+      }
+    }
 
-	// Input groups need that 100% width though
-	.input-group > .form-control {
-	  width: 100%;
-	}
+    // Input groups need that 100% width though
+    .input-group > .form-control {
+      width: 100%;
+    }
 
-	.control-label {
-	  margin-bottom: 0;
-	  vertical-align: middle;
-	}
+    .control-label {
+      margin-bottom: 0;
+      vertical-align: middle;
+    }
 
-	// Remove default margin on radios/checkboxes that were used for stacking, and
-	// then undo the floating of radios and checkboxes to match (which also avoids
-	// a bug in WebKit: https://github.com/twbs/bootstrap/issues/1969).
-	.radio,
-	.checkbox {
-	  display: inline-block;
-	  margin-top: 0;
-	  margin-bottom: 0;
-	  vertical-align: middle;
+    // Remove default margin on radios/checkboxes that were used for stacking, and
+    // then undo the floating of radios and checkboxes to match (which also avoids
+    // a bug in WebKit: https://github.com/twbs/bootstrap/issues/1969).
+    .radio,
+    .checkbox {
+      display: inline-block;
+      margin-top: 0;
+      margin-bottom: 0;
+      vertical-align: middle;
 
-	  label {
-		padding-left: 0;
-	  }
-	}
+      label {
+        padding-left: 0;
+      }
+    }
 
-	.radio input[type="radio"],
-	.checkbox input[type="checkbox"] {
-	  position: relative;
-	  margin-left: 0;
-	}
+    .radio input[type="radio"],
+    .checkbox input[type="checkbox"] {
+      position: relative;
+      margin-left: 0;
+    }
 
-	// Re-override the feedback icon.
-	.has-feedback .form-control-feedback {
-	  top: 0;
-	}
+    // Re-override the feedback icon.
+    .has-feedback .form-control-feedback {
+      top: 0;
+    }
   }
 }
 
@@ -490,30 +490,30 @@ input[type="checkbox"] {
   .checkbox,
   .radio-inline,
   .checkbox-inline {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: (@padding-base-vertical + 1); // Default padding plus a border
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: (@padding-base-vertical + 1); // Default padding plus a border
   }
   // Account for padding we're adding to ensure the alignment and of help text
   // and other content below items
   .radio,
   .checkbox {
-	min-height: (@line-height-computed + (@padding-base-vertical + 1));
+    min-height: (@line-height-computed + (@padding-base-vertical + 1));
   }
 
   // Make form groups behave like rows
   .form-group {
-	.make-row();
+    .make-row();
   }
 
   // Reset spacing and right align labels, but scope to media queries so that
   // labels on narrow viewports stack the same as a default form example.
   @media (min-width: @screen-sm-min) {
-	.control-label {
-	  text-align: right;
-	  margin-bottom: 0;
-	  padding-top: (@padding-base-vertical + 1); // Default padding plus a border
-	}
+    .control-label {
+      text-align: right;
+      margin-bottom: 0;
+      padding-top: (@padding-base-vertical + 1); // Default padding plus a border
+    }
   }
 
   // Validation states
@@ -521,7 +521,7 @@ input[type="checkbox"] {
   // Reposition the icon because it's now within a grid column and columns have
   // `position: relative;` on them. Also accounts for the grid gutter padding.
   .has-feedback .form-control-feedback {
-	right: (@grid-gutter-width / 2);
+    right: (@grid-gutter-width / 2);
   }
 
   // Form group sizes
@@ -529,17 +529,17 @@ input[type="checkbox"] {
   // Quick utility class for applying `.input-lg` and `.input-sm` styles to the
   // inputs and labels within a `.form-group`.
   .form-group-lg {
-	@media (min-width: @screen-sm-min) {
-	  .control-label {
-		padding-top: ((@padding-large-vertical * @line-height-large) + 1);
-	  }
-	}
+    @media (min-width: @screen-sm-min) {
+      .control-label {
+        padding-top: ((@padding-large-vertical * @line-height-large) + 1);
+      }
+    }
   }
   .form-group-sm {
-	@media (min-width: @screen-sm-min) {
-	  .control-label {
-		padding-top: (@padding-small-vertical + 1);
-	  }
-	}
+    @media (min-width: @screen-sm-min) {
+      .control-label {
+        padding-top: (@padding-small-vertical + 1);
+      }
+    }
   }
 }

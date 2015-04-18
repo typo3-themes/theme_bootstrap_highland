@@ -9,15 +9,15 @@
   display: inline-block;
   vertical-align: middle; // match .btn alignment given font-size hack above
   > .btn {
-	position: relative;
-	float: left;
-	// Bring the "active" button to the front
-	&:hover,
-	&:focus,
-	&:active,
-	&.active {
-	  z-index: 2;
-	}
+    position: relative;
+    float: left;
+    // Bring the "active" button to the front
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      z-index: 2;
+    }
   }
 }
 
@@ -27,7 +27,7 @@
   .btn + .btn-group,
   .btn-group + .btn,
   .btn-group + .btn-group {
-	margin-left: -1px;
+    margin-left: -1px;
   }
 }
 
@@ -38,12 +38,12 @@
 
   .btn-group,
   .input-group {
-	float: left;
+    float: left;
   }
   > .btn,
   > .btn-group,
   > .input-group {
-	margin-left: 5px;
+    margin-left: 5px;
   }
 }
 
@@ -55,7 +55,7 @@
 .btn-group > .btn:first-child {
   margin-left: 0;
   &:not(:last-child):not(.dropdown-toggle) {
-	.border-right-radius(0);
+    .border-right-radius(0);
   }
 }
 
@@ -77,7 +77,7 @@
 .btn-group > .btn-group:first-child {
   > .btn:last-child,
   > .dropdown-toggle {
-	.border-right-radius(0);
+    .border-right-radius(0);
   }
 }
 
@@ -125,7 +125,7 @@
 
   // Show no shadow for `.btn-link` since it has no other button styles.
   &.btn-link {
-	.box-shadow(none);
+    .box-shadow(none);
   }
 }
 
@@ -152,40 +152,40 @@
   > .btn,
   > .btn-group,
   > .btn-group > .btn {
-	display: block;
-	float: none;
-	width: 100%;
-	max-width: 100%;
+    display: block;
+    float: none;
+    width: 100%;
+    max-width: 100%;
   }
 
   // Clear floats so dropdown menus can be properly placed
   > .btn-group {
-	&:extend(.clearfix all);
-	> .btn {
-	  float: none;
-	}
+    &:extend(.clearfix all);
+    > .btn {
+      float: none;
+    }
   }
 
   > .btn + .btn,
   > .btn + .btn-group,
   > .btn-group + .btn,
   > .btn-group + .btn-group {
-	margin-top: -1px;
-	margin-left: 0;
+    margin-top: -1px;
+    margin-left: 0;
   }
 }
 
 .btn-group-vertical > .btn {
   &:not(:first-child):not(:last-child) {
-	border-radius: 0;
+    border-radius: 0;
   }
   &:first-child:not(:last-child) {
-	border-top-right-radius: @border-radius-base;
-	.border-bottom-radius(0);
+    border-top-right-radius: @border-radius-base;
+    .border-bottom-radius(0);
   }
   &:last-child:not(:first-child) {
-	border-bottom-left-radius: @border-radius-base;
-	.border-top-radius(0);
+    border-bottom-left-radius: @border-radius-base;
+    .border-top-radius(0);
   }
 }
 
@@ -196,7 +196,7 @@
 .btn-group-vertical > .btn-group:first-child:not(:last-child) {
   > .btn:last-child,
   > .dropdown-toggle {
-	.border-bottom-radius(0);
+    .border-bottom-radius(0);
   }
 }
 
@@ -214,16 +214,16 @@
   border-collapse: separate;
   > .btn,
   > .btn-group {
-	float: none;
-	display: table-cell;
-	width: 1%;
+    float: none;
+    display: table-cell;
+    width: 1%;
   }
   > .btn-group .btn {
-	width: 100%;
+    width: 100%;
   }
 
   > .btn-group .dropdown-menu {
-	left: auto;
+    left: auto;
   }
 }
 
@@ -242,11 +242,11 @@
 [data-toggle="buttons"] {
   > .btn,
   > .btn-group > .btn {
-	input[type="radio"],
-	input[type="checkbox"] {
-	  position: absolute;
-	  clip: rect(0, 0, 0, 0);
-	  pointer-events: none;
-	}
+    input[type="radio"],
+    input[type="checkbox"] {
+      position: absolute;
+      clip: rect(0, 0, 0, 0);
+      pointer-events: none;
+    }
   }
 }

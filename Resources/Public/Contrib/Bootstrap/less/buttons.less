@@ -22,33 +22,33 @@
   &,
   &:active,
   &.active {
-	&:focus,
-	&.focus {
-	  .tab-focus();
-	}
+    &:focus,
+    &.focus {
+      .tab-focus();
+    }
   }
 
   &:hover,
   &:focus,
   &.focus {
-	color: @btn-default-color;
-	text-decoration: none;
+    color: @btn-default-color;
+    text-decoration: none;
   }
 
   &:active,
   &.active {
-	outline: 0;
-	background-image: none;
-	.box-shadow(inset 0 3px 5px rgba(0, 0, 0, .125));
+    outline: 0;
+    background-image: none;
+    .box-shadow(inset 0 3px 5px rgba(0, 0, 0, .125));
   }
 
   &.disabled,
   &[disabled],
   fieldset[disabled] & {
-	cursor: @cursor-disabled;
-	pointer-events: none; // Future-proof disabling of clicks
-	.opacity(.65);
-	.box-shadow(none);
+    cursor: @cursor-disabled;
+    pointer-events: none; // Future-proof disabling of clicks
+    .opacity(.65);
+    .box-shadow(none);
   }
 }
 
@@ -97,28 +97,28 @@
   &.active,
   &[disabled],
   fieldset[disabled] & {
-	background-color: transparent;
-	.box-shadow(none);
+    background-color: transparent;
+    .box-shadow(none);
   }
   &,
   &:hover,
   &:focus,
   &:active {
-	border-color: transparent;
+    border-color: transparent;
   }
   &:hover,
   &:focus {
-	color: @link-hover-color;
-	text-decoration: underline;
-	background-color: transparent;
+    color: @link-hover-color;
+    text-decoration: underline;
+    background-color: transparent;
   }
   &[disabled],
   fieldset[disabled] & {
-	&:hover,
-	&:focus {
-	  color: @btn-link-disabled-color;
-	  text-decoration: none;
-	}
+    &:hover,
+    &:focus {
+      color: @btn-link-disabled-color;
+      text-decoration: none;
+    }
   }
 }
 
@@ -157,6 +157,6 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   &.btn-block {
-	width: 100%;
+    width: 100%;
   }
 }
