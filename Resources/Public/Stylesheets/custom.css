@@ -33,6 +33,10 @@ footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.
 .wrapper > .carousel h1.hl, .wrapper > .carousel h2.hl, .wrapper > .carousel h3.hl, .wrapper > .carousel h4.hl, .wrapper > .carousel h5.hl, .wrapper > .carousel h6.hl,
 #wrap h1.hl, #wrap h2.hl, #wrap h3.hl, #wrap h4.hl, #wrap h5.hl, #wrap h6.hl {
 	color: #FFFFFF;
+}
+
+.wrapper > .carousel h1.hl, .wrapper > .carousel h2.hl, .wrapper > .carousel h3.hl, .wrapper > .carousel h4.hl, .wrapper > .carousel h5.hl, .wrapper > .carousel h6.hl,
+#wrap h1.hl, #wrap h2.hl, #wrap h3.hl, #wrap h4.hl, #wrap h5.hl, #wrap h6.hl {
 	border-bottom: 0px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
