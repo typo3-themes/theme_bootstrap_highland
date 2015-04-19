@@ -29,6 +29,25 @@
 				<source>Infoboard-Error</source>
 			</trans-unit>
 
+			<trans-unit id="content.variants.panel_green" xml:space="preserve">
+				<source>Panel Green</source>
+			</trans-unit>
+			<trans-unit id="content.variants.panel_blue" xml:space="preserve">
+				<source>Panel Blue</source>
+			</trans-unit>
+			<trans-unit id="content.variants.panel_dark" xml:space="preserve">
+				<source>Panel Dark</source>
+			</trans-unit>
+			<trans-unit id="content.variants.panel_red" xml:space="preserve">
+				<source>Panel Red</source>
+			</trans-unit>
+			<trans-unit id="content.variants.panel_turquoise" xml:space="preserve">
+				<source>Panel Turquoise</source>
+			</trans-unit>
+			<trans-unit id="content.variants.panel_amethyst" xml:space="preserve">
+				<source>Panel Amethyst</source>
+			</trans-unit>
+
 			<trans-unit id="content.behaviour.team_listing" xml:space="preserve">
 				<source>Team listing</source>
 			</trans-unit>

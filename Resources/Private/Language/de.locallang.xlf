@@ -34,6 +34,31 @@
 				<target>Infoboard-Fehler</target>
 			</trans-unit>
 
+			<trans-unit id="content.variants.panel_green" xml:space="preserve">
+				<source>Panel Green</source>
+				<target>Paneel Grün</target>
+			</trans-unit>
+			<trans-unit id="content.variants.panel_blue" xml:space="preserve">
+				<source>Panel Blue</source>
+				<target>Paneel Blau</target>
+			</trans-unit>
+			<trans-unit id="content.variants.panel_dark" xml:space="preserve">
+				<source>Panel Dark</source>
+				<target>Paneel Dunkel</target>
+			</trans-unit>
+			<trans-unit id="content.variants.panel_red" xml:space="preserve">
+				<source>Panel Red</source>
+				<target>Paneel Rot</target>
+			</trans-unit>
+			<trans-unit id="content.variants.panel_turquoise" xml:space="preserve">
+				<source>Panel Turquoise</source>
+				<target>Paneel Türkis</target>
+			</trans-unit>
+			<trans-unit id="content.variants.panel_amethyst" xml:space="preserve">
+				<source>Panel Amethyst</source>
+				<target>Paneel Amethyst</target>
+			</trans-unit>
+
 			<trans-unit id="content.behaviour.team_listing" xml:space="preserve">
 				<source>Team listing</source>
 				<target>Team-Liste</target>

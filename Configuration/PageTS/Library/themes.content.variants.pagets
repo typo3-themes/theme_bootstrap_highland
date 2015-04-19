@@ -35,6 +35,14 @@ themes {
 					infoboard-warning = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_warning
 					infoboard-danger = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_danger
 				}
+				singleColumnHeaderFooter {
+					panel-color1 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_green
+					panel-color2 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_blue
+					panel-color3 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_dark
+					panel-color4 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_red
+					panel-color5 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_turquoise
+					panel-color6 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_amethyst
+				}
 			}
 		}
 	}

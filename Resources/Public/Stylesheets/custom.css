@@ -29,6 +29,19 @@ h1.hl, h2.hl, h3.hl, h4.hl, h5.hl, h6.hl {
 	margin-bottom: 20px;
 }
 
+.panel-heading .csc-header > h1, .panel-heading .csc-header > h2, .panel-heading .csc-header > h3, .panel-heading .csc-header > h4, .panel-heading .csc-header > h5, .panel-heading .csc-header > h6,
+.panel-footer .csc-header > h1, .panel-footer .csc-header > h2, .panel-footer .csc-header > h3, .panel-footer .csc-header > h4, .panel-footer .csc-header > h5, .panel-footer .csc-header > h6 {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-bottom: 0px;
+	text-transform: none;
+}
+
+.panel-heading .csc-header > h1, .panel-heading .csc-header > h2, .panel-heading .csc-header > h3, .panel-heading .csc-header > h4, .panel-heading .csc-header > h5, .panel-heading .csc-header > h6 {
+	margin-bottom: 0px;
+}
+
 footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.hl,
 .wrapper > .carousel h1.hl, .wrapper > .carousel h2.hl, .wrapper > .carousel h3.hl, .wrapper > .carousel h4.hl, .wrapper > .carousel h5.hl, .wrapper > .carousel h6.hl,
 #wrap h1.hl, #wrap h2.hl, #wrap h3.hl, #wrap h4.hl, #wrap h5.hl, #wrap h6.hl {
@@ -50,6 +63,7 @@ h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
 	margin-top: 30px;
 }
 
+.panel .panel-heading .csc-header,
 .csc-header-n1, .info-board .csc-header {
 	margin-top: 0px;
 }
