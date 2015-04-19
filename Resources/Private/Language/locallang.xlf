@@ -48,6 +48,25 @@
 				<source>Panel Amethyst</source>
 			</trans-unit>
 
+			<trans-unit id="content.variants.navigation_pills_green" xml:space="preserve">
+				<source>Green Pills</source>
+			</trans-unit>
+			<trans-unit id="content.variants.navigation_pills_blue" xml:space="preserve">
+				<source>Blue Pills</source>
+			</trans-unit>
+			<trans-unit id="content.variants.navigation_pills_dark" xml:space="preserve">
+				<source>Dark Pills</source>
+			</trans-unit>
+			<trans-unit id="content.variants.navigation_pills_red" xml:space="preserve">
+				<source>Red Pills</source>
+			</trans-unit>
+			<trans-unit id="content.variants.navigation_pills_turquoise" xml:space="preserve">
+				<source>Turquoise Pills</source>
+			</trans-unit>
+			<trans-unit id="content.variants.navigation_pills_amethyst" xml:space="preserve">
+				<source>Amethyst Pills</source>
+			</trans-unit>
+
 			<trans-unit id="content.behaviour.team_listing" xml:space="preserve">
 				<source>Team listing</source>
 			</trans-unit>

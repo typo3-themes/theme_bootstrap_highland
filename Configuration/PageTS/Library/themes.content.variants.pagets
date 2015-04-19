@@ -28,6 +28,14 @@ themes {
 
 			# ctype: gridelements_pi1
 			gridelements_pi1 {
+				tabs {
+					navigation-pills-color1 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.navigation_pills_green
+					navigation-pills-color2 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.navigation_pills_blue
+					navigation-pills-color3 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.navigation_pills_dark
+					navigation-pills-color4 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.navigation_pills_red
+					navigation-pills-color5 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.navigation_pills_turquoise
+					navigation-pills-color6 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.navigation_pills_amethyst
+				}
 				container {
 					alert-dismissable = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.alert_dismissable
 					infoboard-success = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.infoboard_success

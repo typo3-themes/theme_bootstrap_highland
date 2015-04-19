@@ -56,7 +56,32 @@
 			</trans-unit>
 			<trans-unit id="content.variants.panel_amethyst" xml:space="preserve">
 				<source>Panel Amethyst</source>
-				<target>Paneel Amethyst</target>
+				<target>Paneel Violett</target>
+			</trans-unit>
+
+			<trans-unit id="content.variants.navigation_pills_green" xml:space="preserve">
+				<source>Green Pills</source>
+				<target>Grüne Schaltflächen</target>
+			</trans-unit>
+			<trans-unit id="content.variants.navigation_pills_blue" xml:space="preserve">
+				<source>Blue Pills</source>
+				<target>Blaue Schaltflächen</target>
+			</trans-unit>
+			<trans-unit id="content.variants.navigation_pills_dark" xml:space="preserve">
+				<source>Dark Pills</source>
+				<target>Dunkle Schaltflächen</target>
+			</trans-unit>
+			<trans-unit id="content.variants.navigation_pills_red" xml:space="preserve">
+				<source>Red Pills</source>
+				<target>Rote Schaltflächen</target>
+			</trans-unit>
+			<trans-unit id="content.variants.navigation_pills_turquoise" xml:space="preserve">
+				<source>Turquoise Pills</source>
+				<target>Türkise Schaltflächen</target>
+			</trans-unit>
+			<trans-unit id="content.variants.navigation_pills_amethyst" xml:space="preserve">
+				<source>Amethyst Pills</source>
+				<target>Violette Schaltflächen</target>
 			</trans-unit>
 
 			<trans-unit id="content.behaviour.team_listing" xml:space="preserve">

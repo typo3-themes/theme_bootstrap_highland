@@ -68,6 +68,10 @@ h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
 	margin-top: 0px;
 }
 
+.tab-pane .csc-header-n1 {
+	margin-top: 30px;
+}
+
 .info-board .csc-header > h1, .info-board .csc-header > h2, .info-board .csc-header > h3, .info-board .csc-header > h4, .info-board .csc-header > h5, .info-board .csc-header > h6 {
 	padding-bottom: 0px;
 	border-bottom: 0px;
@@ -327,6 +331,16 @@ h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
 	right: 5px;
 	opacity: 1;
 	cursor: pointer;
+}
+
+.tx-devnullgeshi-pi1,
+.tx-devnullgeshi-pi1 pre,
+.tx-devnullgeshi-pi1 pre ol {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background: none;
+	list-style-type: none;
 }
 
 @media (min-width: 768px) {
