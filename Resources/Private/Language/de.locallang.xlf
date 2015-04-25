@@ -17,21 +17,21 @@
 				<target>Meldung ausblendbar</target>
 			</trans-unit>
 
-			<trans-unit id="content.variants.infoboard_success" xml:space="preserve">
-				<source>Infoboard-Success</source>
-				<target>Infoboard-Erfolg</target>
+			<trans-unit id="content.variants.infoboard_green" xml:space="preserve">
+				<source>Green Infoboard</source>
+				<target>Grünes Infoboard</target>
 			</trans-unit>
-			<trans-unit id="content.variants.infoboard_info" xml:space="preserve">
-				<source>Infoboard-Info</source>
-				<target>Infoboard-Info</target>
+			<trans-unit id="content.variants.infoboard_blue" xml:space="preserve">
+				<source>Blue Infoboard</source>
+				<target>Blaues Infoboard</target>
 			</trans-unit>
-			<trans-unit id="content.variants.infoboard_warning" xml:space="preserve">
-				<source>Infoboard-Warning</source>
-				<target>Infoboard-Warnung</target>
+			<trans-unit id="content.variants.infoboard_orange" xml:space="preserve">
+				<source>Orange Infoboard</source>
+				<target>Oranges Infoboard</target>
 			</trans-unit>
-			<trans-unit id="content.variants.infoboard_danger" xml:space="preserve">
-				<source>Infoboard-Error</source>
-				<target>Infoboard-Fehler</target>
+			<trans-unit id="content.variants.infoboard_red" xml:space="preserve">
+				<source>Red Infoboard</source>
+				<target>Rotes Infoboard</target>
 			</trans-unit>
 
 			<trans-unit id="content.variants.panel_green" xml:space="preserve">

@@ -16,17 +16,17 @@
 				<source>Alert dismissable</source>
 			</trans-unit>
 
-			<trans-unit id="content.variants.infoboard_success" xml:space="preserve">
-				<source>Infoboard-Success</source>
+			<trans-unit id="content.variants.infoboard_green" xml:space="preserve">
+				<source>Green Infoboard</source>
 			</trans-unit>
-			<trans-unit id="content.variants.infoboard_info" xml:space="preserve">
-				<source>Infoboard-Info</source>
+			<trans-unit id="content.variants.infoboard_blue" xml:space="preserve">
+				<source>Blue Infoboard</source>
 			</trans-unit>
-			<trans-unit id="content.variants.infoboard_warning" xml:space="preserve">
-				<source>Infoboard-Warning</source>
+			<trans-unit id="content.variants.infoboard_orange" xml:space="preserve">
+				<source>Orange Infoboard</source>
 			</trans-unit>
-			<trans-unit id="content.variants.infoboard_danger" xml:space="preserve">
-				<source>Infoboard-Error</source>
+			<trans-unit id="content.variants.infoboard_red" xml:space="preserve">
+				<source>Red Infoboard</source>
 			</trans-unit>
 
 			<trans-unit id="content.variants.panel_green" xml:space="preserve">
