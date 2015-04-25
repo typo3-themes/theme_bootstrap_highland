@@ -8,10 +8,10 @@ lib.content.cssMap.variants {
 
 	social = social
 
-	navigation-pills-color1 = nav-pills-green
-	navigation-pills-color2 = nav-pills-blue
-	navigation-pills-color3 = nav-pills-dark
-	navigation-pills-color4 = nav-pills-red
-	navigation-pills-color5 = nav-pills-turquoise
-	navigation-pills-color6 = nav-pills-amethyst
+	navigation-pills-green = nav-pills-green
+	navigation-pills-blue = nav-pills-blue
+	navigation-pills-dark = nav-pills-dark
+	navigation-pills-red = nav-pills-red
+	navigation-pills-turquoise = nav-pills-turquoise
+	navigation-pills-amethyst = nav-pills-amethyst
 }

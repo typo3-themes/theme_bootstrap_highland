@@ -1,0 +1,30 @@
+RTE {
+	default	 {
+		buttons {
+			link.properties.class {
+				allowedClasses := addToList(button-green,button-blue,button-dark,button-red,button-turquoise,button-amethyst)
+			}
+		}
+	}
+	classes {
+		button-green {
+			name = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.green
+		}
+		button-blue {
+			name = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.blue
+		}
+		button-dark {
+			name = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.dark
+		}
+		button-red {
+			name = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.red
+		}
+		button-turquoise {
+			name = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.turquoise
+		}
+		button-amethyst {
+			name = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.amethyst
+		}
+	}
+}
+

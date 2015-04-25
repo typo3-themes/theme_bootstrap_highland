@@ -84,6 +84,31 @@
 				<target>Violette Schaltflächen</target>
 			</trans-unit>
 
+			<trans-unit id="content.buttons.green" xml:space="preserve">
+				<source>Green Button</source>
+				<target>Grüne Schaltfläche</target>
+			</trans-unit>
+			<trans-unit id="content.buttons.blue" xml:space="preserve">
+				<source>Blue Button</source>
+				<target>Blaue Schaltfläche</target>
+			</trans-unit>
+			<trans-unit id="content.buttons.dark" xml:space="preserve">
+				<source>Dark Button</source>
+				<target>Dunkle Schaltfläche</target>
+			</trans-unit>
+			<trans-unit id="content.buttons.red" xml:space="preserve">
+				<source>Red Button</source>
+				<target>Rote Schaltfläche</target>
+			</trans-unit>
+			<trans-unit id="content.buttons.turquoise" xml:space="preserve">
+				<source>Turquoise Button</source>
+				<target>Türkise Schaltfläche</target>
+			</trans-unit>
+			<trans-unit id="content.buttons.amythyst" xml:space="preserve">
+				<source>Amethyst Button</source>
+				<target>Violette Schaltfläche</target>
+			</trans-unit>
+
 			<trans-unit id="content.behaviour.team_listing" xml:space="preserve">
 				<source>Team listing</source>
 				<target>Team-Liste</target>
