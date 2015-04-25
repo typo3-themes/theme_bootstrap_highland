@@ -1,10 +1,10 @@
 lib.content.cssMap.variants {
 	alert-dismissable = alert alert-dismissable
 
-	infoboard-success = info-board info-board-green
-	infoboard-info = info-board info-board-blue
-	infoboard-warning = info-board info-board-orange
-	infoboard-danger = info-board info-board-red
+	infoboard-green = info-board info-board-green
+	infoboard-blue = info-board info-board-blue
+	infoboard-orange = info-board info-board-orange
+	infoboard-red = info-board info-board-red
 
 	social = social
 
