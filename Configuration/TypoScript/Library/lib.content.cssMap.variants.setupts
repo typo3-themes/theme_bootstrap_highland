@@ -14,4 +14,13 @@ lib.content.cssMap.variants {
 	navigation-pills-red = nav-pills-red
 	navigation-pills-turquoise = nav-pills-turquoise
 	navigation-pills-amethyst = nav-pills-amethyst
+
+	buttons {
+		button-green = btn btn-green
+		button-blue = btn btn-blue
+		button-dark = btn btn-dark
+		button-red = btn btn-red
+		button-turquoise = btn btn-turquoise
+		button-amethyst = btn btn-amethyst
+	}
 }

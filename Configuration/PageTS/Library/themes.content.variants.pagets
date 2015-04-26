@@ -52,6 +52,14 @@ themes {
 					panel-amethyst = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_amethyst
 				}
 			}
+			themes_gridelements_buttoncontent_pi1 {
+				button-green = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.green
+				button-blue = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.blue
+				button-dark = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.dark
+				button-red = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.red
+				button-turquoise = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.turquoise
+				button-amethyst = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.amethyst
+			}
 		}
 	}
 }

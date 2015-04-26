@@ -104,7 +104,7 @@
 				<source>Turquoise Button</source>
 				<target>Türkise Schaltfläche</target>
 			</trans-unit>
-			<trans-unit id="content.buttons.amythyst" xml:space="preserve">
+			<trans-unit id="content.buttons.amethyst" xml:space="preserve">
 				<source>Amethyst Button</source>
 				<target>Violette Schaltfläche</target>
 			</trans-unit>

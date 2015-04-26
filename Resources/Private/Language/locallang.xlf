@@ -82,7 +82,7 @@
 			<trans-unit id="content.buttons.turquoise" xml:space="preserve">
 				<source>Turquoise Button</source>
 			</trans-unit>
-			<trans-unit id="content.buttons.amythyst" xml:space="preserve">
+			<trans-unit id="content.buttons.amethyst" xml:space="preserve">
 				<source>Amethyst Button</source>
 			</trans-unit>
 
