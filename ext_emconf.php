@@ -12,10 +12,10 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Highland Bootstrap Theme',
-	'description' => 'TYPO3 compatible adaption of the \"Highland - Multipage Business Template\" by simpleqode',
+	'description' => 'TYPO3 compatible adaption of the "Highland - Multipage Business Template" by simpleqode',
 	'category' => 'fe',
 	'shy' => 0,
-	'version' => '0.1.0',
+	'version' => '0.2.0',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -36,9 +36,7 @@ $EM_CONF[$_EXTKEY] = array(
 		'depends' => array(
 			'php' => '5.2.0-0.0.0',
 			'typo3' => '6.2.0-6.2.99',
-			'themes' => '2.3.3-2.3.99',
-			'theme_bootstrap' => '1.2.0-1.99.99',
-			'themes_gridelements' => '0.3.0-1.0.0',
+			'theme_bootstrap' => '1.3.0-1.99.99',
 		),
 		'conflicts' => array(),
 		'suggests' => array(),
