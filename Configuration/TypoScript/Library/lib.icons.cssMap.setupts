@@ -1,6 +1,10 @@
 lib.icons.cssMap >
 lib.icons.cssMap {
 
+	# This is the list of available icons in this theme
+	# you can only keep items, which are provided by theme_bootstrap of course
+	# the <i> tag will be generated for available classes only
+
 	adjust = fa fa-adjust
 	adn = fa fa-adn
 	align-center = fa fa-align-center
