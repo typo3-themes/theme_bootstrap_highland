@@ -53,6 +53,7 @@ tt_content.menu.20.7 = HMENU
 tt_content.menu.20.7 {
 	special = list
 	special.value.field = pages
+	maxItems = 5
 	1 = TMENU
 	1.NO{
 		allStdWrap.outerWrap = <li class="services__item"><div class="services-item__body">|</div></li>
