@@ -1,10 +1,6 @@
 # Settings for the development system
 
 page {
-	includeJSlibs {
-
-	}
-
 	includeJS {
 		scrolltopcontrol = EXT:theme_bootstrap_highland/Resources/Public/JavaScript/scrolltopcontrol.js
 		scrolltopcontrol {
@@ -21,16 +17,3 @@ page {
 		}
 	}
 }
-
-# Settings for the production system
-[globalVar = LIT:1 = {$themes.mode.isProduction}]
-	page {
-		includeJSlibs {
-
-		}
-
-		includeJS {
-
-		}
-	}
-[end]

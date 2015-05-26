@@ -1,19 +1,10 @@
 lib.gridelements {
 	carousel {
-		setCurrent {
-			dataWrap = {field:tx_themes_behaviour},{field:tx_themes_variants}
-			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
-			postUserFunc {
-				behaviourMapping =< lib.content.cssMap.behaviour
-				variantMapping =< lib.content.cssMap.variants
-			}
-		}
-
+		setCurrent.postUserFunc.responsiveMapping >
 		cObject = FLUIDTEMPLATE
 		cObject {
 			file = EXT:theme_bootstrap_highland/Resources/Private/Templates/Elements/Carousel.html
 		}
-
 		columns.0.renderObj >
 		columns.0.renderObj =< tt_content
 	}
