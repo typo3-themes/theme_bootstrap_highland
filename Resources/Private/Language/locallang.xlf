@@ -90,6 +90,10 @@
 				<source>Team listing</source>
 			</trans-unit>
 
+			<trans-unit id="content.menu.service" xml:space="preserve">
+				<source>Services Menu With Page Icons And Subtitles</source>
+			</trans-unit>
+
 		</body>
 	</file>
 </xliff>

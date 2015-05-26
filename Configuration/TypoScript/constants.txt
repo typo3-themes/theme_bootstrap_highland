@@ -1,2 +1,6 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Configuration/TypoScript/constants.txt">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap_highland/Configuration/TypoScript/Library/" extensions="constantsts">
+
+lib.icons.menu {
+	default-icon = star
+}

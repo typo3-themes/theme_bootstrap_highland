@@ -47,3 +47,36 @@ tt_content.bullets {
 
 	30.wrap >
 }
+
+tt_content.menu.20.7 >
+tt_content.menu.20.7 = HMENU
+tt_content.menu.20.7 {
+	special = list
+	special.value.field = pages
+	1 = TMENU
+	1.NO{
+		allStdWrap.outerWrap = <li class="services__item"><div class="services-item__body">|</div></li>
+		allStdWrap.prepend = TEXT
+		allStdWrap.prepend {
+			field = tx_themes_icon
+			ifEmpty = {$lib.icons.menu.default-icon}
+			stdWrap.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+			stdWrap.postUserFunc {
+				iconMapping =< lib.icons.cssMap
+			}
+			required = 1
+			noTrimWrap = |<i class="services-item__icon | fa-3x" aria-hidden="true"></i> |
+		}
+		allWrap = <div class="services-item__content">|</div>
+		ATagParams = class="services-item__link"
+		stdWrap.override = >>
+		stdWrap.override.if.isFalse.field = subtitle
+		before.cObject = TEXT
+		before.cObject {
+			field = title
+			override.field = subtitle
+			wrap = <p class="services-item__caption">|</p>
+		}
+	}
+	wrap = <ul class="services">|</ul>
+}

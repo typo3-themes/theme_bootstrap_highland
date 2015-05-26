@@ -114,6 +114,11 @@
 				<target>Team-Liste</target>
 			</trans-unit>
 
+			<trans-unit id="content.menu.service" xml:space="preserve">
+				<source>Services Menu With Page Icons And Subtitles</source>
+				<target>Services-Menü mit Seiten-Symbolen und Untertiteln</target>
+			</trans-unit>
+
 		</body>
 	</file>
 </xliff>

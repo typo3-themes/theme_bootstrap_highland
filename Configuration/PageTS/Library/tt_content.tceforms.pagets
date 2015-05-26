@@ -1,0 +1,9 @@
+TCEFORM.tt_content {
+	header_layout.addItems {
+		6 = H2 Block Header
+		7 = H2 Block Header Row
+	}
+	menu_type.altLabels {
+		7 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.menu.service
+	}
+}
