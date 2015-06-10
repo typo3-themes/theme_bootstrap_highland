@@ -1,10 +1,15 @@
 TCEFORM.pages {
 	layout {
 		altLabels {
-			0 = Colorset 1
-			1 = Colorset 2
-			2 = Colorset 3
-			3 = Colorset 4
+			0 = Colorset Default
+			1 = Colorset Green
+			2 = Colorset Blue
+			3 = Colorset Dark
+		}
+		addItems {
+			4 = Colorset Red
+			5 = Colorset Turquoise
+			6 = Colorset Amethyst
 		}
 	}
 }

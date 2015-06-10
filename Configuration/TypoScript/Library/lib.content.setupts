@@ -55,8 +55,9 @@ tt_content.menu.20.7 {
 	special.value.field = pages
 	maxItems = 5
 	1 = TMENU
-	1.NO{
-		allStdWrap.outerWrap = <li class="services__item"><div class="services-item__body">|</div></li>
+	1.NO {
+		allStdWrap.outerWrap = <li class="services__item colorset-{field:layout}"><div class="services-item__body">|</div></li>
+		allStdWrap.outerWrap.insertData = 1
 		allStdWrap.prepend = TEXT
 		allStdWrap.prepend {
 			field = tx_themes_icon

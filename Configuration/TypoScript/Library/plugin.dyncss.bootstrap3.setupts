@@ -12,7 +12,25 @@ plugin.tx_dyncss.overrides {
 		2.value = {$themes.configuration.colors.primary3}
 		3 = TEXT
 		3.value = {$themes.configuration.colors.primary4}
+		4 = TEXT
+		4.value = {$themes.configuration.colors.primary5}
+		5 = TEXT
+		5.value = {$themes.configuration.colors.primary6}
+		6 = TEXT
+		6.value = {$themes.configuration.colors.primary7}
 	}
+	brand-primary2 = TEXT
+	brand-primary2.value = {$themes.configuration.colors.primary2}
+	brand-primary3 = TEXT
+	brand-primary3.value = {$themes.configuration.colors.primary3}
+	brand-primary4 = TEXT
+	brand-primary4.value = {$themes.configuration.colors.primary4}
+	brand-primary5 = TEXT
+	brand-primary5.value = {$themes.configuration.colors.primary5}
+	brand-primary6 = TEXT
+	brand-primary6.value = {$themes.configuration.colors.primary6}
+	brand-primary7 = TEXT
+	brand-primary7.value = {$themes.configuration.colors.primary7}
 
 	brand-secondary >
 	brand-secondary = CASE
@@ -26,6 +44,12 @@ plugin.tx_dyncss.overrides {
 		2.value = {$themes.configuration.colors.secondary3}
 		3 = TEXT
 		3.value = {$themes.configuration.colors.secondary4}
+		4 = TEXT
+		4.value = {$themes.configuration.colors.secondary5}
+		5 = TEXT
+		5.value = {$themes.configuration.colors.secondary6}
+		6 = TEXT
+		6.value = {$themes.configuration.colors.secondary7}
 	}
 
 	highland-color-green = TEXT

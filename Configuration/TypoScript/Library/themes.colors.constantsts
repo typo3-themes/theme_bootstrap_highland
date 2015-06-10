@@ -17,22 +17,40 @@ themes.configuration.colors.primary = #478091
 themes.configuration.colors.secondary = #376370
 
 # cat=colors,advanced/general/; type=color; label= Primary color 2
-themes.configuration.colors.primary2 = #A88252
+themes.configuration.colors.primary2 = #72a53b
 
 # cat=colors,advanced/general/; type=color; label= Secondary color 2
-themes.configuration.colors.secondary2 = #8A6A44
+themes.configuration.colors.secondary2 = #678C3E
 
 # cat=colors,advanced/general/; type=color; label= Primary color 3
-themes.configuration.colors.primary3 = #995B5B
+themes.configuration.colors.primary3 = #00B4FF
 
 # cat=colors,advanced/general/; type=color; label= Secondary color 3
-themes.configuration.colors.secondary3 = #734545
+themes.configuration.colors.secondary3 = #46859F
 
 # cat=colors,advanced/general/; type=color; label= Primary color 4
-themes.configuration.colors.primary4 = #7D74A6
+themes.configuration.colors.primary4 = #515151
 
 # cat=colors,advanced/general/; type=color; label= Secondary color 4
-themes.configuration.colors.secondary4 = #554C7D
+themes.configuration.colors.secondary4 = #454545
+
+# cat=colors,advanced/general/; type=color; label= Primary color 5
+themes.configuration.colors.primary5 = #E74C3C
+
+# cat=colors,advanced/general/; type=color; label= Secondary color 5
+themes.configuration.colors.secondary5 = #B45B52
+
+# cat=colors,advanced/general/; type=color; label= Primary color 6
+themes.configuration.colors.primary6 = #1ABC9C
+
+# cat=colors,advanced/general/; type=color; label= Secondary color 6
+themes.configuration.colors.secondary6 = #3A8576
+
+# cat=colors,advanced/general/; type=color; label= Primary color 7
+themes.configuration.colors.primary7 = #8E44AD
+
+# cat=colors,advanced/general/; type=color; label= Secondary color 7
+themes.configuration.colors.secondary7 = #7D4297
 
 # cat=colors,basic/general/; type=color; label= Link color
 themes.configuration.colors.link = #337AB7
