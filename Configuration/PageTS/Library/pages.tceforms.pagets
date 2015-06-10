@@ -1,0 +1,10 @@
+TCEFORM.pages {
+	layout {
+		altLabels {
+			0 = Colorset 1
+			1 = Colorset 2
+			2 = Colorset 3
+			3 = Colorset 4
+		}
+	}
+}

@@ -1,0 +1,774 @@
+// Color variables (appears count calculates by raw css)
+@highland-elements-color-0: #ffffff; // Appears 56 times
+@highland-elements-color-1: @highland-color-amethyst; // Appears 16 times
+@highland-elements-color-2: @highland-color-blue; // Appears 15 times
+@highland-elements-color-3: @highland-color-dark; // Appears 14 times
+@highland-elements-color-4: @highland-color-red; // Appears 12 times
+@highland-elements-color-5: @highland-color-green; // Appears 12 times
+@highland-elements-color-6: @highland-color-turquoise; // Appears 11 times
+@highland-elements-color-7: #c0392b; // Appears 10 times
+@highland-elements-color-8: #16a085; // Appears 10 times
+@highland-elements-color-9: #5d8731; // Appears 10 times
+@highland-elements-color-10: @gray-lighter; // Appears 10 times
+@highland-elements-color-11: #009de0; // Appears 10 times
+@highland-elements-color-12: @gray-dark; // Appears 8 times
+@highland-elements-color-13: @gray-lighter; // Appears 5 times
+@highland-elements-color-14: #9b59b6; // Appears 5 times
+@highland-elements-color-15: #adadad; // Appears 5 times
+@highland-elements-color-16: #f5f5f5; // Appears 4 times
+@highland-elements-color-17: #cccccc; // Appears 4 times
+
+
+
+.btn {
+  border-radius: 0;
+}
+.btn-default {
+  background-color: @highland-elements-color-0;
+  border-color: @highland-elements-color-17;
+  color: @highland-elements-color-12;
+  &:hover {
+    background-color: @highland-elements-color-13;
+    border-color: @highland-elements-color-15;
+    color: @highland-elements-color-12;
+  }
+  &:focus {
+    background-color: @highland-elements-color-13;
+    border-color: @highland-elements-color-15;
+    color: @highland-elements-color-12;
+  }
+  &:active {
+    background-color: @highland-elements-color-13;
+    background-image: none;
+    border-color: @highland-elements-color-15;
+    color: @highland-elements-color-12;
+  }
+}
+.btn-default.active {
+  background-color: @highland-elements-color-13;
+  background-image: none;
+  border-color: @highland-elements-color-15;
+  color: @highland-elements-color-12;
+}
+.hl-open {
+  .dropdown-toggle.btn-default {
+    background-color: @highland-elements-color-13;
+    border-color: @highland-elements-color-15;
+    color: @highland-elements-color-12;
+  }
+}
+.open {
+  .dropdown-toggle.btn-default {
+    background-image: none;
+  }
+  .dropdown-toggle.btn-green {
+    background-color: @highland-elements-color-9;
+    background-image: none;
+    border-color: @highland-elements-color-9;
+    color: @highland-elements-color-0;
+  }
+  .dropdown-toggle.btn-red {
+    background-color: @highland-elements-color-7;
+    background-image: none;
+    border-color: @highland-elements-color-7;
+    color: @highland-elements-color-0;
+  }
+  .dropdown-toggle.btn-blue {
+    background-color: @highland-elements-color-11;
+    background-image: none;
+    border-color: @highland-elements-color-11;
+    color: @highland-elements-color-0;
+  }
+  .dropdown-toggle.btn-dark {
+    background-color: @highland-elements-color-10;
+    background-image: none;
+    border-color: @highland-elements-color-10;
+    color: @highland-elements-color-0;
+  }
+  .dropdown-toggle.btn-turquoise {
+    background-color: @highland-elements-color-8;
+    background-image: none;
+    border-color: @highland-elements-color-8;
+    color: @highland-elements-color-0;
+  }
+  .dropdown-toggle.btn-amethyst {
+    background-color: @highland-elements-color-1;
+    background-image: none;
+    border-color: @highland-elements-color-1;
+    color: @highland-elements-color-0;
+  }
+}
+.btn-default.disabled, .btn-default[disabled], fieldset[disabled].btn-default, .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled].btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled].btn-default:focus, .btn-default.disabled:active, .btn-default[disabled]:active, fieldset[disabled].btn-default:active, .btn-default.disabled.active, .btn-default[disabled].active, fieldset[disabled].btn-default.active  {
+  background-color: @highland-elements-color-0;
+  border-color: @highland-elements-color-17;
+}
+.btn-green {
+  background-color: @highland-elements-color-5;
+  border-color: @highland-elements-color-5;
+  color: @highland-elements-color-0;
+  &:hover {
+    background-color: @highland-elements-color-9;
+    border-color: @highland-elements-color-9;
+    color: @highland-elements-color-0;
+  }
+  &:focus {
+    background-color: @highland-elements-color-9;
+    border-color: @highland-elements-color-9;
+    color: @highland-elements-color-0;
+  }
+  &:active {
+    background-color: @highland-elements-color-9;
+    background-image: none;
+    border-color: @highland-elements-color-9;
+    color: @highland-elements-color-0;
+  }
+}
+.btn-green.active {
+  background-color: @highland-elements-color-9;
+  background-image: none;
+  border-color: @highland-elements-color-9;
+  color: @highland-elements-color-0;
+}
+.btn-green.disabled, .btn-green[disabled], fieldset[disabled].btn-green, .btn-green.disabled:hover, .btn-green[disabled]:hover, fieldset[disabled].btn-green:hover, .btn-green.disabled:focus, .btn-green[disabled]:focus, fieldset[disabled].btn-green:focus, .btn-green.disabled:active, .btn-green[disabled]:active, fieldset[disabled].btn-green:active, .btn-green.disabled.active, .btn-green[disabled].active, fieldset[disabled].btn-green.active  {
+  background-color: #AFD487;
+  border-color: #AFD487;
+}
+.btn-red {
+  background-color: @highland-elements-color-4;
+  border-color: @highland-elements-color-4;
+  color: @highland-elements-color-0;
+  &:hover {
+    background-color: @highland-elements-color-7;
+    border-color: @highland-elements-color-7;
+    color: @highland-elements-color-0;
+  }
+  &:focus {
+    background-color: @highland-elements-color-7;
+    border-color: @highland-elements-color-7;
+    color: @highland-elements-color-0;
+  }
+  &:active {
+    background-color: @highland-elements-color-7;
+    background-image: none;
+    border-color: @highland-elements-color-7;
+    color: @highland-elements-color-0;
+  }
+}
+.btn-red.active {
+  background-color: @highland-elements-color-7;
+  background-image: none;
+  border-color: @highland-elements-color-7;
+  color: @highland-elements-color-0;
+}
+.btn-red.disabled, .btn-red[disabled], fieldset[disabled].btn-red, .btn-red.disabled:hover, .btn-red[disabled]:hover, fieldset[disabled].btn-red:hover, .btn-red.disabled:focus, .btn-red[disabled]:focus, fieldset[disabled].btn-red:focus, .btn-red.disabled:active, .btn-red[disabled]:active, fieldset[disabled].btn-red:active, .btn-red.disabled.active, .btn-red[disabled].active, fieldset[disabled].btn-red.active  {
+  background-color: #EF8B80;
+  border-color: #EF8B80;
+}
+.btn-blue {
+  background-color: @highland-elements-color-2;
+  border-color: @highland-elements-color-2;
+  color: @highland-elements-color-0;
+  &:hover {
+    background-color: @highland-elements-color-11;
+    border-color: @highland-elements-color-11;
+    color: @highland-elements-color-0;
+  }
+  &:focus {
+    background-color: @highland-elements-color-11;
+    border-color: @highland-elements-color-11;
+    color: @highland-elements-color-0;
+  }
+  &:active {
+    background-color: @highland-elements-color-11;
+    background-image: none;
+    border-color: @highland-elements-color-11;
+    color: @highland-elements-color-0;
+  }
+}
+.btn-blue.active {
+  background-color: @highland-elements-color-11;
+  background-image: none;
+  border-color: @highland-elements-color-11;
+  color: @highland-elements-color-0;
+}
+.btn-blue.disabled, .btn-blue[disabled], fieldset[disabled].btn-blue, .btn-blue.disabled:hover, .btn-blue[disabled]:hover, fieldset[disabled].btn-blue:hover, .btn-blue.disabled:focus, .btn-blue[disabled]:focus, fieldset[disabled].btn-blue:focus, .btn-blue.disabled:active, .btn-blue[disabled]:active, fieldset[disabled].btn-blue:active, .btn-blue.disabled.active, .btn-blue[disabled].active, fieldset[disabled].btn-blue.active  {
+  background-color: #5CCEFF;
+  border-color: #5CCEFF;
+}
+.btn-dark {
+  background-color: @highland-elements-color-3;
+  border-color: @highland-elements-color-3;
+  color: @highland-elements-color-0;
+  &:hover {
+    background-color: @highland-elements-color-10;
+    border-color: @highland-elements-color-10;
+    color: @highland-elements-color-0;
+  }
+  &:focus {
+    background-color: @highland-elements-color-10;
+    border-color: @highland-elements-color-10;
+    color: @highland-elements-color-0;
+  }
+  &:active {
+    background-color: @highland-elements-color-10;
+    background-image: none;
+    border-color: @highland-elements-color-10;
+    color: @highland-elements-color-0;
+  }
+}
+.btn-dark.active {
+  background-color: @highland-elements-color-10;
+  background-image: none;
+  border-color: @highland-elements-color-10;
+  color: @highland-elements-color-0;
+}
+.btn-dark.disabled, .btn-dark[disabled], fieldset[disabled].btn-dark, .btn-dark.disabled:hover, .btn-dark[disabled]:hover, fieldset[disabled].btn-dark:hover, .btn-dark.disabled:focus, .btn-dark[disabled]:focus, fieldset[disabled].btn-dark:focus, .btn-dark.disabled:active, .btn-dark[disabled]:active, fieldset[disabled].btn-dark:active, .btn-dark.disabled.active, .btn-dark[disabled].active, fieldset[disabled].btn-dark.active  {
+  background-color: #707070;
+  border-color: #707070;
+}
+.btn-turquoise {
+  background-color: @highland-elements-color-6;
+  border-color: @highland-elements-color-6;
+  color: @highland-elements-color-0;
+  &:hover {
+    background-color: @highland-elements-color-8;
+    border-color: @highland-elements-color-8;
+    color: @highland-elements-color-0;
+  }
+  &:focus {
+    background-color: @highland-elements-color-8;
+    border-color: @highland-elements-color-8;
+    color: @highland-elements-color-0;
+  }
+  &:active {
+    background-color: @highland-elements-color-8;
+    background-image: none;
+    border-color: @highland-elements-color-8;
+    color: @highland-elements-color-0;
+  }
+}
+.btn-turquoise.active {
+  background-color: @highland-elements-color-8;
+  background-image: none;
+  border-color: @highland-elements-color-8;
+  color: @highland-elements-color-0;
+}
+.btn-turquoise.disabled, .btn-turquoise[disabled], fieldset[disabled].btn-turquoise, .btn-turquoise.disabled:hover, .btn-turquoise[disabled]:hover, fieldset[disabled].btn-turquoise:hover, .btn-turquoise.disabled:focus, .btn-turquoise[disabled]:focus, fieldset[disabled].btn-turquoise:focus, .btn-turquoise.disabled:active, .btn-turquoise[disabled]:active, fieldset[disabled].btn-turquoise:active, .btn-turquoise.disabled.active, .btn-turquoise[disabled].active, fieldset[disabled].btn-turquoise.active  {
+  background-color: #4BE7C8;
+  border-color: #4BE7C8;
+}
+.btn-amethyst {
+  background-color: @highland-elements-color-14;
+  border-color: @highland-elements-color-14;
+  color: @highland-elements-color-0;
+  &:hover {
+    background-color: @highland-elements-color-1;
+    border-color: @highland-elements-color-1;
+    color: @highland-elements-color-0;
+  }
+  &:focus {
+    background-color: @highland-elements-color-1;
+    border-color: @highland-elements-color-1;
+    color: @highland-elements-color-0;
+  }
+  &:active {
+    background-color: @highland-elements-color-1;
+    background-image: none;
+    border-color: @highland-elements-color-1;
+    color: @highland-elements-color-0;
+  }
+}
+.btn-amethyst.active {
+  background-color: @highland-elements-color-1;
+  background-image: none;
+  border-color: @highland-elements-color-1;
+  color: @highland-elements-color-0;
+}
+.btn-amethyst.disabled, .btn-amethyst[disabled], fieldset[disabled].btn-amethyst, .btn-amethyst.disabled:hover, .btn-amethyst[disabled]:hover, fieldset[disabled].btn-amethyst:hover, .btn-amethyst.disabled:focus, .btn-amethyst[disabled]:focus, fieldset[disabled].btn-amethyst:focus, .btn-amethyst.disabled:active, .btn-amethyst[disabled]:active, fieldset[disabled].btn-amethyst:active, .btn-amethyst.disabled.active, .btn-amethyst[disabled].active, fieldset[disabled].btn-amethyst.active  {
+  background-color: #BB8ECD;
+  border-color: #BB8ECD;
+}
+.panel {
+  border-radius: 0;
+}
+.panel-heading {
+  border-radius: 0;
+}
+.panel-footer {
+  border-radius: 0;
+}
+.panel-group {
+  .panel {
+    border-radius: 0;
+  }
+}
+.panel-green {
+  border-color: @highland-elements-color-5;
+}
+.panel-green>.panel-heading {
+  background-color: @highland-elements-color-5;
+  border-color: @highland-elements-color-5;
+  color: @highland-elements-color-0;
+}
+.panel-green>.panel-heading+.panel-collapse {
+  .panel-body {
+    border-top-color: @highland-elements-color-5;
+  }
+}
+.panel-green>.panel-footer+.panel-collapse {
+  .panel-body {
+    border-bottom-color: @highland-elements-color-5;
+  }
+}
+.panel-green>.panel-footer {
+  background-color: lighten(average(@highland-elements-color-5, #DDDDDD), 20%, relative);
+  border-top: 1px solid @highland-elements-color-5;
+}
+.panel-blue {
+  border-color: @highland-elements-color-2;
+}
+.panel-blue>.panel-heading {
+  background-color: @highland-elements-color-2;
+  border-color: @highland-elements-color-2;
+  color: @highland-elements-color-0;
+}
+.panel-blue>.panel-heading+.panel-collapse {
+  .panel-body {
+    border-top-color: @highland-elements-color-2;
+  }
+}
+.panel-blue>.panel-footer+.panel-collapse {
+  .panel-body {
+    border-bottom-color: @highland-elements-color-2;
+  }
+}
+.panel-blue>.panel-footer {
+  background-color: lighten(average(@highland-elements-color-2, #DDDDDD), 20%, relative);
+  border-top: 1px solid @highland-elements-color-2;
+}
+.panel-dark {
+  border-color: @highland-elements-color-3;
+}
+.panel-dark>.panel-heading {
+  background-color: @highland-elements-color-3;
+  border-color: @highland-elements-color-3;
+  color: @highland-elements-color-0;
+}
+.panel-dark>.panel-heading+.panel-collapse {
+  .panel-body {
+    border-top-color: @highland-elements-color-3;
+  }
+}
+.panel-dark>.panel-footer+.panel-collapse {
+  .panel-body {
+    border-bottom-color: @highland-elements-color-3;
+  }
+}
+.panel-dark>.panel-footer {
+  background-color: lighten(average(@highland-elements-color-3, #DDDDDD), 20%, relative);
+  border-top: 1px solid @highland-elements-color-3;
+}
+.panel-red {
+  border-color: @highland-elements-color-4;
+}
+.panel-red>.panel-heading {
+  background-color: @highland-elements-color-4;
+  border-color: @highland-elements-color-4;
+  color: @highland-elements-color-0;
+}
+.panel-red>.panel-heading+.panel-collapse {
+  .panel-body {
+    border-top-color: @highland-elements-color-4;
+  }
+}
+.panel-red>.panel-footer+.panel-collapse {
+  .panel-body {
+    border-bottom-color: @highland-elements-color-4;
+  }
+}
+.panel-red>.panel-footer {
+  background-color: lighten(average(@highland-elements-color-4, #DDDDDD), 20%, relative);
+  border-top: 1px solid @highland-elements-color-4;
+}
+.panel-turquoise {
+  border-color: @highland-elements-color-6;
+}
+.panel-turquoise>.panel-heading {
+  background-color: @highland-elements-color-6;
+  border-color: @highland-elements-color-6;
+  color: @highland-elements-color-0;
+}
+.panel-turquoise>.panel-heading+.panel-collapse {
+  .panel-body {
+    border-top-color: @highland-elements-color-6;
+  }
+}
+.panel-turquoise>.panel-footer+.panel-collapse {
+  .panel-body {
+    border-bottom-color: @highland-elements-color-6;
+  }
+}
+.panel-turquoise>.panel-footer {
+  background-color: lighten(average(@highland-elements-color-6, #DDDDDD), 20%, relative);
+  border-top: 1px solid @highland-elements-color-6;
+}
+.panel-amethyst {
+  border-color: @highland-elements-color-1;
+}
+.panel-amethyst>.panel-heading {
+  background-color: @highland-elements-color-1;
+  border-color: @highland-elements-color-1;
+  color: @highland-elements-color-0;
+}
+.panel-amethyst>.panel-heading+.panel-collapse {
+  .panel-body {
+    border-top-color: @highland-elements-color-1;
+  }
+}
+.panel-amethyst>.panel-footer+.panel-collapse {
+  .panel-body {
+    border-bottom-color: @highland-elements-color-1;
+  }
+}
+.panel-amethyst>.panel-footer {
+  background-color: lighten(average(@highland-elements-color-1, #DDDDDD), 20%, relative);
+  border-top: 1px solid @highland-elements-color-1;
+}
+.panel-dummy {
+  border-color: #dddddd;
+}
+.panel-dummy>.panel-heading {
+  background-color: @highland-elements-color-0;
+  border-color: @highland-elements-color-0;
+  color: @highland-elements-color-12;
+}
+.panel-dummy>.panel-heading+.panel-collapse {
+  .panel-body {
+    border-top-color: @highland-elements-color-0;
+  }
+}
+.panel-dummy>.panel-footer+.panel-collapse {
+  .panel-body {
+    border-bottom-color: @highland-elements-color-0;
+  }
+}
+.panel-dummy>.panel-footer {
+  background-color: @highland-elements-color-0;
+  border-top: 1px solid @highland-elements-color-0;
+}
+.info-board {
+  border-left: 5px solid #eeeeee;
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  h4 {
+    margin-top: 0;
+    margin-top: 0;
+    margin-top: 0;
+    margin-top: 0;
+  }
+  p {
+    &:last-child {
+      margin-bottom: 0;
+      margin-bottom: 0;
+      margin-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+.info-board-green {
+  background-color: #F5FAF0;
+  border-color: @highland-elements-color-5;
+}
+.info-board-blue {
+  background-color: #EBF9FF;
+  border-color: @highland-elements-color-2;
+}
+.info-board-red {
+  background-color: #FBF0EE;
+  border-color: @highland-elements-color-4;
+}
+.info-board-orange {
+  background-color: #FFF2EB;
+  border-color: #FFA973;
+}
+.form-control {
+  border-radius: 0;
+}
+.nav-tabs {
+  margin-bottom: 15px;
+}
+.nav-tabs>li>a {
+  background: @highland-elements-color-16;
+  border-bottom: 1px solid #dedede;
+  border-radius: 0;
+}
+.nav-pills {
+  margin-bottom: 15px;
+}
+.nav-pills>li>a {
+  background-color: @highland-elements-color-16;
+  border-radius: 0;
+}
+.nav-pills-green>li.active>a {
+  background-color: @highland-elements-color-5;
+  &:hover {
+    background-color: @highland-elements-color-5;
+  }
+  &:focus {
+    background-color: @highland-elements-color-5;
+  }
+}
+.nav-pills-blue>li.active>a {
+  background-color: @highland-elements-color-2;
+  &:hover {
+    background-color: @highland-elements-color-2;
+  }
+  &:focus {
+    background-color: @highland-elements-color-2;
+  }
+}
+.nav-pills-dark>li.active>a {
+  background-color: @highland-elements-color-3;
+  &:hover {
+    background-color: @highland-elements-color-3;
+  }
+  &:focus {
+    background-color: @highland-elements-color-3;
+  }
+}
+.nav-pills-red>li.active>a {
+  background-color: @highland-elements-color-4;
+  &:hover {
+    background-color: @highland-elements-color-4;
+  }
+  &:focus {
+    background-color: @highland-elements-color-4;
+  }
+}
+.nav-pills-turquoise>li.active>a {
+  background-color: @highland-elements-color-6;
+  &:hover {
+    background-color: @highland-elements-color-6;
+  }
+  &:focus {
+    background-color: @highland-elements-color-6;
+  }
+}
+.nav-pills-amethyst>li.active>a {
+  background-color: @highland-elements-color-14;
+  &:hover {
+    background-color: @highland-elements-color-14;
+  }
+  &:focus {
+    background-color: @highland-elements-color-14;
+  }
+}
+.alert {
+  border-radius: 0;
+}
+.thumbnail {
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+  .caption {
+    color: @highland-elements-color-12;
+    padding: 10px;
+    h4 {
+      text-transform: uppercase;
+    }
+    .rating {
+      margin-bottom: 10px;
+      i {
+        color: #F7C41F;
+        font-size: 18px;
+      }
+    }
+  }
+}
+.thumbnail>img {
+  border: 1px solid #eeeeee;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding: 10px;
+}
+a.thumbnail {
+  &:hover {
+    img {
+      border-color: @highland-elements-color-17;
+    }
+  }
+  &:focus {
+    img {
+      border-color: @highland-elements-color-17;
+    }
+  }
+}
+.page-tip {
+  -moz-box-shadow: 0 0 16px 0 rgba(50, 50, 50, 0.3);
+  -webkit-box-shadow: 0 0 16px 0 rgba(50, 50, 50, 0.3);
+  background: @highland-elements-color-0;
+  box-shadow: 0 0 16px 0 rgba(50, 50, 50, 0.3);
+  color: @highland-elements-color-3;
+  margin-bottom: 50px;
+  padding: 15px 0;
+  p {
+    margin: 0;
+  }
+}
+.section-header {
+  background: @highland-elements-color-16;
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 50px;
+  padding: 15px 0;
+  h1 {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    span {
+      border-bottom: 5px solid @highland-elements-color-2;
+      padding-bottom: 10px;
+    }
+  }
+}
+.block-header {
+  h2 {
+    background: #eeeeee;
+    color: @highland-elements-color-3;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 40px 0;
+    text-transform: uppercase;
+    .title {
+      background: @highland-elements-color-0;
+      padding: 0 15px 0 0;
+    }
+    .decoration {
+      background: @highland-elements-color-0;
+      margin-left: 5px;
+      padding-left: 3px;
+    }
+  }
+}
+.lead {
+  font-weight: 300;
+}
+.social-icons {
+  margin-bottom: 15px;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      -moz-transition: 0.1s;
+      -webkit-transition: 0.1s;
+      float: left;
+      margin: 0 5px 5px 0;
+      opacity: 0.5;
+      text-align: center;
+      transition: 0.1s;
+      &:hover {
+        -moz-transition: 0.1s;
+        -webkit-transition: 0.1s;
+        opacity: 1;
+        transition: 0.1s;
+      }
+      a {
+        color: @highland-elements-color-0;
+        display: block;
+      }
+    }
+    li.rss {
+      background: #ff9900;
+    }
+    li.facebook {
+      background: #3B5998;
+    }
+    li.twitter {
+      background: #1dcaff;
+    }
+    li.plus {
+      background: #dd4b39;
+    }
+    li.vk {
+      background: #3f628a;
+    }
+    li.pinterest {
+      background: #c92026;
+    }
+    li.vimeo {
+      background: #446d82;
+    }
+    li.github {
+      background: #657e8c;
+    }
+    li.linkedin {
+      background: #0c7bb3;
+    }
+    li.dropbox {
+      background: #4fa3e3;
+    }
+  }
+}
+.social-icons-small {
+  ul {
+    li {
+      font-size: 16px;
+      height: 20px;
+      line-height: 20px;
+      width: 20px;
+    }
+  }
+}
+.social-icons-default {
+  ul {
+    li {
+      font-size: 22px;
+      height: 30px;
+      line-height: 30px;
+      width: 30px;
+    }
+  }
+}
+.social-icons-large {
+  ul {
+    li {
+      font-size: 28px;
+      height: 40px;
+      line-height: 40px;
+      width: 40px;
+    }
+  }
+}
+.tags>a {
+  background: @highland-elements-color-16;
+  border-width: 0 1px 1px 0;
+  border: 1px solid #dedede;
+  color: @highland-elements-color-3;
+  display: inline-block;
+  font-size: 0.9em;
+  margin: 4px 4px 4px 0;
+  padding: 3px 4px;
+  text-decoration: none;
+  white-space: nowrap;
+  &:hover {
+    background: @highland-elements-color-2;
+    border-color: @highland-elements-color-2;
+    color: @highland-elements-color-0;
+    &:before {
+      color: @highland-elements-color-0;
+    }
+  }
+  &:before {
+    color: #999999;
+    content: "\f02b";
+    font-family: FontAwesome;
+    margin-right: 5px;
+  }
+}

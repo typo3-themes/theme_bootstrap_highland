@@ -1,8 +1,6 @@
 page {
 	includeCSS {
-		animate = EXT:theme_bootstrap_highland/Resources/Public/Stylesheets/animate.css
-		custom = EXT:theme_bootstrap_highland/Resources/Public/Stylesheets/custom.css
-		elements = EXT:theme_bootstrap_highland/Resources/Public/Stylesheets/elements.css
+		theme = EXT:theme_bootstrap_highland/Resources/Private/Dyncss/import.less
 		fontawesome = EXT:theme_bootstrap_highland/Resources/Public/Contrib/font-awesome-4.3.0/css/font-awesome.css
 		fontawesome {
 			excludeFromConcatenation = 1

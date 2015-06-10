@@ -1,0 +1,43 @@
+plugin.tx_dyncss.overrides {
+
+	brand-primary >
+	brand-primary = CASE
+	brand-primary {
+		key.data = levelfield:-1, layout, slide
+		default = TEXT
+		default.value = {$themes.configuration.colors.primary}
+		1 = TEXT
+		1.value = {$themes.configuration.colors.primary2}
+		2 = TEXT
+		2.value = {$themes.configuration.colors.primary3}
+		3 = TEXT
+		3.value = {$themes.configuration.colors.primary4}
+	}
+
+	brand-secondary >
+	brand-secondary = CASE
+	brand-secondary {
+		key.data = levelfield:-1, layout, slide
+		default = TEXT
+		default.value = {$themes.configuration.colors.secondary}
+		1 = TEXT
+		1.value = {$themes.configuration.colors.secondary2}
+		2 = TEXT
+		2.value = {$themes.configuration.colors.secondary3}
+		3 = TEXT
+		3.value = {$themes.configuration.colors.secondary4}
+	}
+
+	highland-color-green = TEXT
+	highland-color-green.value = {$themes.configuration.colors.green}
+	highland-color-blue = TEXT
+	highland-color-blue.value = {$themes.configuration.colors.blue}
+	highland-color-dark = TEXT
+	highland-color-dark.value = {$themes.configuration.colors.dark}
+	highland-color-red = TEXT
+	highland-color-red.value = {$themes.configuration.colors.red}
+	highland-color-turquoise = TEXT
+	highland-color-turquoise.value = {$themes.configuration.colors.turquoise}
+	highland-color-amethyst = TEXT
+	highland-color-amethyst.value = {$themes.configuration.colors.amethyst}
+}
