@@ -1,19 +1,5 @@
 // Color variables (appears count calculates by raw css)
 @highland-elements-color-0: #ffffff; // Appears 56 times
-@highland-elements-color-1: @highland-color-amethyst; // Appears 16 times
-@highland-elements-color-2: @highland-color-blue; // Appears 15 times
-@highland-elements-color-3: @highland-color-dark; // Appears 14 times
-@highland-elements-color-4: @highland-color-red; // Appears 12 times
-@highland-elements-color-5: @highland-color-green; // Appears 12 times
-@highland-elements-color-6: @highland-color-turquoise; // Appears 11 times
-@highland-elements-color-7: #c0392b; // Appears 10 times
-@highland-elements-color-8: #16a085; // Appears 10 times
-@highland-elements-color-9: #5d8731; // Appears 10 times
-@highland-elements-color-10: @gray-lighter; // Appears 10 times
-@highland-elements-color-11: #009de0; // Appears 10 times
-@highland-elements-color-12: @gray-dark; // Appears 8 times
-@highland-elements-color-13: @gray-lighter; // Appears 5 times
-@highland-elements-color-14: #9b59b6; // Appears 5 times
 @highland-elements-color-15: #adadad; // Appears 5 times
 @highland-elements-color-16: #f5f5f5; // Appears 4 times
 @highland-elements-color-17: #cccccc; // Appears 4 times
@@ -26,35 +12,35 @@
 .btn-default {
   background-color: @highland-elements-color-0;
   border-color: @highland-elements-color-17;
-  color: @highland-elements-color-12;
+  color: @gray-dark;
   &:hover {
-    background-color: @highland-elements-color-13;
+    background-color: @gray-lighter;
     border-color: @highland-elements-color-15;
-    color: @highland-elements-color-12;
+    color: @gray-dark;
   }
   &:focus {
-    background-color: @highland-elements-color-13;
+    background-color: @gray-lighter;
     border-color: @highland-elements-color-15;
-    color: @highland-elements-color-12;
+    color: @gray-dark;
   }
   &:active {
-    background-color: @highland-elements-color-13;
+    background-color: @gray-lighter;
     background-image: none;
     border-color: @highland-elements-color-15;
-    color: @highland-elements-color-12;
+    color: @gray-dark;
   }
 }
 .btn-default.active {
-  background-color: @highland-elements-color-13;
+  background-color: @gray-lighter;
   background-image: none;
   border-color: @highland-elements-color-15;
-  color: @highland-elements-color-12;
+  color: @gray-dark;
 }
 .hl-open {
   .dropdown-toggle.btn-default {
-    background-color: @highland-elements-color-13;
+    background-color: @gray-lighter;
     border-color: @highland-elements-color-15;
-    color: @highland-elements-color-12;
+    color: @gray-dark;
   }
 }
 .open {
@@ -62,39 +48,39 @@
     background-image: none;
   }
   .dropdown-toggle.btn-green {
-    background-color: @highland-elements-color-9;
+    background-color: lighten(@highland-color-green, 20%);
     background-image: none;
-    border-color: @highland-elements-color-9;
+    border-color: lighten(@highland-color-green, 20%);
     color: @highland-elements-color-0;
   }
   .dropdown-toggle.btn-red {
-    background-color: @highland-elements-color-7;
+    background-color: lighten(@highland-color-red, 20%);
     background-image: none;
-    border-color: @highland-elements-color-7;
+    border-color: lighten(@highland-color-red, 20%);
     color: @highland-elements-color-0;
   }
   .dropdown-toggle.btn-blue {
-    background-color: @highland-elements-color-11;
+    background-color: lighten(@highland-color-blue, 20%);
     background-image: none;
-    border-color: @highland-elements-color-11;
+    border-color: lighten(@highland-color-blue, 20%);
     color: @highland-elements-color-0;
   }
   .dropdown-toggle.btn-dark {
-    background-color: @highland-elements-color-10;
+    background-color: lighten(@highland-color-dark, 20%);
     background-image: none;
-    border-color: @highland-elements-color-10;
+    border-color: lighten(@highland-color-dark, 20%);
     color: @highland-elements-color-0;
   }
   .dropdown-toggle.btn-turquoise {
-    background-color: @highland-elements-color-8;
+    background-color: lighten(@highland-color-turquoise, 20%);
     background-image: none;
-    border-color: @highland-elements-color-8;
+    border-color: lighten(@highland-color-turquoise, 20%);
     color: @highland-elements-color-0;
   }
   .dropdown-toggle.btn-amethyst {
-    background-color: @highland-elements-color-1;
+    background-color: lighten(@highland-color-amethyst, 20%);
     background-image: none;
-    border-color: @highland-elements-color-1;
+    border-color: lighten(@highland-color-amethyst, 20%);
     color: @highland-elements-color-0;
   }
 }
@@ -103,30 +89,30 @@
   border-color: @highland-elements-color-17;
 }
 .btn-green {
-  background-color: @highland-elements-color-5;
-  border-color: @highland-elements-color-5;
+  background-color: @highland-color-green;
+  border-color: @highland-color-green;
   color: @highland-elements-color-0;
   &:hover {
-    background-color: @highland-elements-color-9;
-    border-color: @highland-elements-color-9;
+    background-color: lighten(@highland-color-green, 20%);
+    border-color: lighten(@highland-color-green, 20%);
     color: @highland-elements-color-0;
   }
   &:focus {
-    background-color: @highland-elements-color-9;
-    border-color: @highland-elements-color-9;
+    background-color: lighten(@highland-color-green, 20%);
+    border-color: lighten(@highland-color-green, 20%);
     color: @highland-elements-color-0;
   }
   &:active {
-    background-color: @highland-elements-color-9;
+    background-color: lighten(@highland-color-green, 20%);
     background-image: none;
-    border-color: @highland-elements-color-9;
+    border-color: lighten(@highland-color-green, 20%);
     color: @highland-elements-color-0;
   }
 }
 .btn-green.active {
-  background-color: @highland-elements-color-9;
+  background-color: lighten(@highland-color-green, 20%);
   background-image: none;
-  border-color: @highland-elements-color-9;
+  border-color: lighten(@highland-color-green, 20%);
   color: @highland-elements-color-0;
 }
 .btn-green.disabled, .btn-green[disabled], fieldset[disabled].btn-green, .btn-green.disabled:hover, .btn-green[disabled]:hover, fieldset[disabled].btn-green:hover, .btn-green.disabled:focus, .btn-green[disabled]:focus, fieldset[disabled].btn-green:focus, .btn-green.disabled:active, .btn-green[disabled]:active, fieldset[disabled].btn-green:active, .btn-green.disabled.active, .btn-green[disabled].active, fieldset[disabled].btn-green.active  {
@@ -134,30 +120,30 @@
   border-color: #AFD487;
 }
 .btn-red {
-  background-color: @highland-elements-color-4;
-  border-color: @highland-elements-color-4;
+  background-color: @highland-color-red;
+  border-color: @highland-color-red;
   color: @highland-elements-color-0;
   &:hover {
-    background-color: @highland-elements-color-7;
-    border-color: @highland-elements-color-7;
+    background-color: lighten(@highland-color-red, 20%);
+    border-color: lighten(@highland-color-red, 20%);
     color: @highland-elements-color-0;
   }
   &:focus {
-    background-color: @highland-elements-color-7;
-    border-color: @highland-elements-color-7;
+    background-color: lighten(@highland-color-red, 20%);
+    border-color: lighten(@highland-color-red, 20%);
     color: @highland-elements-color-0;
   }
   &:active {
-    background-color: @highland-elements-color-7;
+    background-color: lighten(@highland-color-red, 20%);
     background-image: none;
-    border-color: @highland-elements-color-7;
+    border-color: lighten(@highland-color-red, 20%);
     color: @highland-elements-color-0;
   }
 }
 .btn-red.active {
-  background-color: @highland-elements-color-7;
+  background-color: lighten(@highland-color-red, 20%);
   background-image: none;
-  border-color: @highland-elements-color-7;
+  border-color: lighten(@highland-color-red, 20%);
   color: @highland-elements-color-0;
 }
 .btn-red.disabled, .btn-red[disabled], fieldset[disabled].btn-red, .btn-red.disabled:hover, .btn-red[disabled]:hover, fieldset[disabled].btn-red:hover, .btn-red.disabled:focus, .btn-red[disabled]:focus, fieldset[disabled].btn-red:focus, .btn-red.disabled:active, .btn-red[disabled]:active, fieldset[disabled].btn-red:active, .btn-red.disabled.active, .btn-red[disabled].active, fieldset[disabled].btn-red.active  {
@@ -165,30 +151,30 @@
   border-color: #EF8B80;
 }
 .btn-blue {
-  background-color: @highland-elements-color-2;
-  border-color: @highland-elements-color-2;
+  background-color: @highland-color-blue;
+  border-color: @highland-color-blue;
   color: @highland-elements-color-0;
   &:hover {
-    background-color: @highland-elements-color-11;
-    border-color: @highland-elements-color-11;
+    background-color: lighten(@highland-color-blue, 20%);
+    border-color: lighten(@highland-color-blue, 20%);
     color: @highland-elements-color-0;
   }
   &:focus {
-    background-color: @highland-elements-color-11;
-    border-color: @highland-elements-color-11;
+    background-color: lighten(@highland-color-blue, 20%);
+    border-color: lighten(@highland-color-blue, 20%);
     color: @highland-elements-color-0;
   }
   &:active {
-    background-color: @highland-elements-color-11;
+    background-color: lighten(@highland-color-blue, 20%);
     background-image: none;
-    border-color: @highland-elements-color-11;
+    border-color: lighten(@highland-color-blue, 20%);
     color: @highland-elements-color-0;
   }
 }
 .btn-blue.active {
-  background-color: @highland-elements-color-11;
+  background-color: lighten(@highland-color-blue, 20%);
   background-image: none;
-  border-color: @highland-elements-color-11;
+  border-color: lighten(@highland-color-blue, 20%);
   color: @highland-elements-color-0;
 }
 .btn-blue.disabled, .btn-blue[disabled], fieldset[disabled].btn-blue, .btn-blue.disabled:hover, .btn-blue[disabled]:hover, fieldset[disabled].btn-blue:hover, .btn-blue.disabled:focus, .btn-blue[disabled]:focus, fieldset[disabled].btn-blue:focus, .btn-blue.disabled:active, .btn-blue[disabled]:active, fieldset[disabled].btn-blue:active, .btn-blue.disabled.active, .btn-blue[disabled].active, fieldset[disabled].btn-blue.active  {
@@ -196,30 +182,30 @@
   border-color: #5CCEFF;
 }
 .btn-dark {
-  background-color: @highland-elements-color-3;
-  border-color: @highland-elements-color-3;
+  background-color: @highland-color-dark;
+  border-color: @highland-color-dark;
   color: @highland-elements-color-0;
   &:hover {
-    background-color: @highland-elements-color-10;
-    border-color: @highland-elements-color-10;
+    background-color: lighten(@highland-color-dark, 20%);
+    border-color: lighten(@highland-color-dark, 20%);
     color: @highland-elements-color-0;
   }
   &:focus {
-    background-color: @highland-elements-color-10;
-    border-color: @highland-elements-color-10;
+    background-color: lighten(@highland-color-dark, 20%);
+    border-color: lighten(@highland-color-dark, 20%);
     color: @highland-elements-color-0;
   }
   &:active {
-    background-color: @highland-elements-color-10;
+    background-color: lighten(@highland-color-dark, 20%);
     background-image: none;
-    border-color: @highland-elements-color-10;
+    border-color: lighten(@highland-color-dark, 20%);
     color: @highland-elements-color-0;
   }
 }
 .btn-dark.active {
-  background-color: @highland-elements-color-10;
+  background-color: lighten(@highland-color-dark, 20%);
   background-image: none;
-  border-color: @highland-elements-color-10;
+  border-color: lighten(@highland-color-dark, 20%);
   color: @highland-elements-color-0;
 }
 .btn-dark.disabled, .btn-dark[disabled], fieldset[disabled].btn-dark, .btn-dark.disabled:hover, .btn-dark[disabled]:hover, fieldset[disabled].btn-dark:hover, .btn-dark.disabled:focus, .btn-dark[disabled]:focus, fieldset[disabled].btn-dark:focus, .btn-dark.disabled:active, .btn-dark[disabled]:active, fieldset[disabled].btn-dark:active, .btn-dark.disabled.active, .btn-dark[disabled].active, fieldset[disabled].btn-dark.active  {
@@ -227,30 +213,30 @@
   border-color: #707070;
 }
 .btn-turquoise {
-  background-color: @highland-elements-color-6;
-  border-color: @highland-elements-color-6;
+  background-color: @highland-color-turquoise;
+  border-color: @highland-color-turquoise;
   color: @highland-elements-color-0;
   &:hover {
-    background-color: @highland-elements-color-8;
-    border-color: @highland-elements-color-8;
+    background-color: lighten(@highland-color-turquoise, 20%);
+    border-color: lighten(@highland-color-turquoise, 20%);
     color: @highland-elements-color-0;
   }
   &:focus {
-    background-color: @highland-elements-color-8;
-    border-color: @highland-elements-color-8;
+    background-color: lighten(@highland-color-turquoise, 20%);
+    border-color: lighten(@highland-color-turquoise, 20%);
     color: @highland-elements-color-0;
   }
   &:active {
-    background-color: @highland-elements-color-8;
+    background-color: lighten(@highland-color-turquoise, 20%);
     background-image: none;
-    border-color: @highland-elements-color-8;
+    border-color: lighten(@highland-color-turquoise, 20%);
     color: @highland-elements-color-0;
   }
 }
 .btn-turquoise.active {
-  background-color: @highland-elements-color-8;
+  background-color: lighten(@highland-color-turquoise, 20%);
   background-image: none;
-  border-color: @highland-elements-color-8;
+  border-color: lighten(@highland-color-turquoise, 20%);
   color: @highland-elements-color-0;
 }
 .btn-turquoise.disabled, .btn-turquoise[disabled], fieldset[disabled].btn-turquoise, .btn-turquoise.disabled:hover, .btn-turquoise[disabled]:hover, fieldset[disabled].btn-turquoise:hover, .btn-turquoise.disabled:focus, .btn-turquoise[disabled]:focus, fieldset[disabled].btn-turquoise:focus, .btn-turquoise.disabled:active, .btn-turquoise[disabled]:active, fieldset[disabled].btn-turquoise:active, .btn-turquoise.disabled.active, .btn-turquoise[disabled].active, fieldset[disabled].btn-turquoise.active  {
@@ -258,30 +244,30 @@
   border-color: #4BE7C8;
 }
 .btn-amethyst {
-  background-color: @highland-elements-color-14;
-  border-color: @highland-elements-color-14;
+  background-color: @highland-color-amethyst;
+  border-color: @highland-elements-amethyst;
   color: @highland-elements-color-0;
   &:hover {
-    background-color: @highland-elements-color-1;
-    border-color: @highland-elements-color-1;
+    background-color: lighten(@highland-color-amethyst, 20%);
+    border-color: lighten(@highland-color-amethyst, 20%);
     color: @highland-elements-color-0;
   }
   &:focus {
-    background-color: @highland-elements-color-1;
-    border-color: @highland-elements-color-1;
+    background-color: lighten(@highland-color-amethyst, 20%);
+    border-color: lighten(@highland-color-amethyst, 20%);
     color: @highland-elements-color-0;
   }
   &:active {
-    background-color: @highland-elements-color-1;
+    background-color: lighten(@highland-color-amethyst, 20%);
     background-image: none;
-    border-color: @highland-elements-color-1;
+    border-color: lighten(@highland-color-amethyst, 20%);
     color: @highland-elements-color-0;
   }
 }
 .btn-amethyst.active {
-  background-color: @highland-elements-color-1;
+  background-color: lighten(@highland-color-amethyst, 20%);
   background-image: none;
-  border-color: @highland-elements-color-1;
+  border-color: lighten(@highland-color-amethyst, 20%);
   color: @highland-elements-color-0;
 }
 .btn-amethyst.disabled, .btn-amethyst[disabled], fieldset[disabled].btn-amethyst, .btn-amethyst.disabled:hover, .btn-amethyst[disabled]:hover, fieldset[disabled].btn-amethyst:hover, .btn-amethyst.disabled:focus, .btn-amethyst[disabled]:focus, fieldset[disabled].btn-amethyst:focus, .btn-amethyst.disabled:active, .btn-amethyst[disabled]:active, fieldset[disabled].btn-amethyst:active, .btn-amethyst.disabled.active, .btn-amethyst[disabled].active, fieldset[disabled].btn-amethyst.active  {
@@ -303,136 +289,136 @@
   }
 }
 .panel-green {
-  border-color: @highland-elements-color-5;
+  border-color: @highland-color-green;
 }
 .panel-green>.panel-heading {
-  background-color: @highland-elements-color-5;
-  border-color: @highland-elements-color-5;
+  background-color: @highland-color-green;
+  border-color: @highland-color-green;
   color: @highland-elements-color-0;
 }
 .panel-green>.panel-heading+.panel-collapse {
   .panel-body {
-    border-top-color: @highland-elements-color-5;
+    border-top-color: @highland-color-green;
   }
 }
 .panel-green>.panel-footer+.panel-collapse {
   .panel-body {
-    border-bottom-color: @highland-elements-color-5;
+    border-bottom-color: @highland-color-green;
   }
 }
 .panel-green>.panel-footer {
-  background-color: lighten(average(@highland-elements-color-5, #DDDDDD), 20%, relative);
-  border-top: 1px solid @highland-elements-color-5;
+  background-color: lighten(average(@highland-color-green, #DDDDDD), 20%, relative);
+  border-top: 1px solid @highland-color-green;
 }
 .panel-blue {
-  border-color: @highland-elements-color-2;
+  border-color: @highland-color-blue;
 }
 .panel-blue>.panel-heading {
-  background-color: @highland-elements-color-2;
-  border-color: @highland-elements-color-2;
+  background-color: @highland-color-blue;
+  border-color: @highland-color-blue;
   color: @highland-elements-color-0;
 }
 .panel-blue>.panel-heading+.panel-collapse {
   .panel-body {
-    border-top-color: @highland-elements-color-2;
+    border-top-color: @highland-color-blue;
   }
 }
 .panel-blue>.panel-footer+.panel-collapse {
   .panel-body {
-    border-bottom-color: @highland-elements-color-2;
+    border-bottom-color: @highland-color-blue;
   }
 }
 .panel-blue>.panel-footer {
-  background-color: lighten(average(@highland-elements-color-2, #DDDDDD), 20%, relative);
-  border-top: 1px solid @highland-elements-color-2;
+  background-color: lighten(average(@highland-color-blue, #DDDDDD), 20%, relative);
+  border-top: 1px solid @highland-color-blue;
 }
 .panel-dark {
-  border-color: @highland-elements-color-3;
+  border-color: @highland-color-dark;
 }
 .panel-dark>.panel-heading {
-  background-color: @highland-elements-color-3;
-  border-color: @highland-elements-color-3;
+  background-color: @highland-color-dark;
+  border-color: @highland-color-dark;
   color: @highland-elements-color-0;
 }
 .panel-dark>.panel-heading+.panel-collapse {
   .panel-body {
-    border-top-color: @highland-elements-color-3;
+    border-top-color: @highland-color-dark;
   }
 }
 .panel-dark>.panel-footer+.panel-collapse {
   .panel-body {
-    border-bottom-color: @highland-elements-color-3;
+    border-bottom-color: @highland-color-dark;
   }
 }
 .panel-dark>.panel-footer {
-  background-color: lighten(average(@highland-elements-color-3, #DDDDDD), 20%, relative);
-  border-top: 1px solid @highland-elements-color-3;
+  background-color: lighten(average(@highland-color-dark, #DDDDDD), 20%, relative);
+  border-top: 1px solid @highland-color-dark;
 }
 .panel-red {
-  border-color: @highland-elements-color-4;
+  border-color: @highland-color-red;
 }
 .panel-red>.panel-heading {
-  background-color: @highland-elements-color-4;
-  border-color: @highland-elements-color-4;
+  background-color: @highland-color-red;
+  border-color: @highland-color-red;
   color: @highland-elements-color-0;
 }
 .panel-red>.panel-heading+.panel-collapse {
   .panel-body {
-    border-top-color: @highland-elements-color-4;
+    border-top-color: @highland-color-red;
   }
 }
 .panel-red>.panel-footer+.panel-collapse {
   .panel-body {
-    border-bottom-color: @highland-elements-color-4;
+    border-bottom-color: @highland-color-red;
   }
 }
 .panel-red>.panel-footer {
-  background-color: lighten(average(@highland-elements-color-4, #DDDDDD), 20%, relative);
-  border-top: 1px solid @highland-elements-color-4;
+  background-color: lighten(average(@highland-color-red, #DDDDDD), 20%, relative);
+  border-top: 1px solid @highland-color-red;
 }
 .panel-turquoise {
-  border-color: @highland-elements-color-6;
+  border-color: @highland-color-turquoise;
 }
 .panel-turquoise>.panel-heading {
-  background-color: @highland-elements-color-6;
-  border-color: @highland-elements-color-6;
+  background-color: @highland-color-turquoise;
+  border-color: @highland-color-turquoise;
   color: @highland-elements-color-0;
 }
 .panel-turquoise>.panel-heading+.panel-collapse {
   .panel-body {
-    border-top-color: @highland-elements-color-6;
+    border-top-color: @highland-color-turquoise;
   }
 }
 .panel-turquoise>.panel-footer+.panel-collapse {
   .panel-body {
-    border-bottom-color: @highland-elements-color-6;
+    border-bottom-color: @highland-color-turquoise;
   }
 }
 .panel-turquoise>.panel-footer {
-  background-color: lighten(average(@highland-elements-color-6, #DDDDDD), 20%, relative);
-  border-top: 1px solid @highland-elements-color-6;
+  background-color: lighten(average(@highland-color-turquoise, #DDDDDD), 20%, relative);
+  border-top: 1px solid @highland-color-turquoise;
 }
 .panel-amethyst {
-  border-color: @highland-elements-color-1;
+  border-color: @highland-color-amethyst;
 }
 .panel-amethyst>.panel-heading {
-  background-color: @highland-elements-color-1;
-  border-color: @highland-elements-color-1;
+  background-color: @highland-color-amethyst;
+  border-color: @highland-color-amethyst;
   color: @highland-elements-color-0;
 }
 .panel-amethyst>.panel-heading+.panel-collapse {
   .panel-body {
-    border-top-color: @highland-elements-color-1;
+    border-top-color: @highland-color-amethyst;
   }
 }
 .panel-amethyst>.panel-footer+.panel-collapse {
   .panel-body {
-    border-bottom-color: @highland-elements-color-1;
+    border-bottom-color: @highland-color-amethyst;
   }
 }
 .panel-amethyst>.panel-footer {
-  background-color: lighten(average(@highland-elements-color-1, #DDDDDD), 20%, relative);
-  border-top: 1px solid @highland-elements-color-1;
+  background-color: lighten(average(@highland-color-amethyst, #DDDDDD), 20%, relative);
+  border-top: 1px solid @highland-color-amethyst;
 }
 .panel-dummy {
   border-color: #dddddd;
@@ -440,7 +426,7 @@
 .panel-dummy>.panel-heading {
   background-color: @highland-elements-color-0;
   border-color: @highland-elements-color-0;
-  color: @highland-elements-color-12;
+  color: @gray-dark;
 }
 .panel-dummy>.panel-heading+.panel-collapse {
   .panel-body {
@@ -477,15 +463,15 @@
 }
 .info-board-green {
   background-color: #F5FAF0;
-  border-color: @highland-elements-color-5;
+  border-color: @highland-color-green;
 }
 .info-board-blue {
   background-color: #EBF9FF;
-  border-color: @highland-elements-color-2;
+  border-color: @highland-color-blue;
 }
 .info-board-red {
   background-color: #FBF0EE;
-  border-color: @highland-elements-color-4;
+  border-color: @highland-color-red;
 }
 .info-board-orange {
   background-color: #FFF2EB;
@@ -510,57 +496,57 @@
   border-radius: 0;
 }
 .nav-pills-green>li.active>a {
-  background-color: @highland-elements-color-5;
+  background-color: @highland-color-green;
   &:hover {
-    background-color: @highland-elements-color-5;
+    background-color: @highland-color-green;
   }
   &:focus {
-    background-color: @highland-elements-color-5;
+    background-color: @highland-color-green;
   }
 }
 .nav-pills-blue>li.active>a {
-  background-color: @highland-elements-color-2;
+  background-color: @highland-color-blue;
   &:hover {
-    background-color: @highland-elements-color-2;
+    background-color: @highland-color-blue;
   }
   &:focus {
-    background-color: @highland-elements-color-2;
+    background-color: @highland-color-blue;
   }
 }
 .nav-pills-dark>li.active>a {
-  background-color: @highland-elements-color-3;
+  background-color: @highland-color-dark;
   &:hover {
-    background-color: @highland-elements-color-3;
+    background-color: @highland-color-dark;
   }
   &:focus {
-    background-color: @highland-elements-color-3;
+    background-color: @highland-color-dark;
   }
 }
 .nav-pills-red>li.active>a {
-  background-color: @highland-elements-color-4;
+  background-color: @highland-color-red;
   &:hover {
-    background-color: @highland-elements-color-4;
+    background-color: @highland-color-red;
   }
   &:focus {
-    background-color: @highland-elements-color-4;
+    background-color: @highland-color-red;
   }
 }
 .nav-pills-turquoise>li.active>a {
-  background-color: @highland-elements-color-6;
+  background-color: @highland-color-turquoise;
   &:hover {
-    background-color: @highland-elements-color-6;
+    background-color: @highland-color-turquoise;
   }
   &:focus {
-    background-color: @highland-elements-color-6;
+    background-color: @highland-color-turquoise;
   }
 }
 .nav-pills-amethyst>li.active>a {
-  background-color: @highland-elements-color-14;
+  background-color: @highland-color-amethyst;
   &:hover {
-    background-color: @highland-elements-color-14;
+    background-color: @highland-color-amethyst;
   }
   &:focus {
-    background-color: @highland-elements-color-14;
+    background-color: @highland-color-amethyst;
   }
 }
 .alert {
@@ -571,7 +557,7 @@
   border: 0;
   padding: 0;
   .caption {
-    color: @highland-elements-color-12;
+    color: @gray-dark;
     padding: 10px;
     h4 {
       text-transform: uppercase;
@@ -611,7 +597,7 @@ a.thumbnail {
   -webkit-box-shadow: 0 0 16px 0 rgba(50, 50, 50, 0.3);
   background: @highland-elements-color-0;
   box-shadow: 0 0 16px 0 rgba(50, 50, 50, 0.3);
-  color: @highland-elements-color-3;
+  color: @highland-color-dark;
   margin-bottom: 50px;
   padding: 15px 0;
   p {
@@ -631,7 +617,7 @@ a.thumbnail {
     padding: 0;
     text-transform: uppercase;
     span {
-      border-bottom: 5px solid @highland-elements-color-2;
+      border-bottom: 5px solid @highland-color-blue;
       padding-bottom: 10px;
     }
   }
@@ -639,7 +625,7 @@ a.thumbnail {
 .block-header {
   h2 {
     background: #eeeeee;
-    color: @highland-elements-color-3;
+    color: @highland-color-dark;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     font-weight: 300;
@@ -750,7 +736,7 @@ a.thumbnail {
   background: @highland-elements-color-16;
   border-width: 0 1px 1px 0;
   border: 1px solid #dedede;
-  color: @highland-elements-color-3;
+  color: @highland-color-dark;
   display: inline-block;
   font-size: 0.9em;
   margin: 4px 4px 4px 0;
@@ -758,8 +744,8 @@ a.thumbnail {
   text-decoration: none;
   white-space: nowrap;
   &:hover {
-    background: @highland-elements-color-2;
-    border-color: @highland-elements-color-2;
+    background: @highland-color-blue;
+    border-color: @highland-color-blue;
     color: @highland-elements-color-0;
     &:before {
       color: @highland-elements-color-0;
