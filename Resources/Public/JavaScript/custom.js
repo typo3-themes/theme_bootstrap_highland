@@ -113,6 +113,6 @@ $(document).ready(function () {
 		$(this).click(function(){return false;});
 	})
 	if($('.services').find('.current').length) {
-		$('.services').addClass('.active');
+		$('.services').addClass('active');
 	}
 });
