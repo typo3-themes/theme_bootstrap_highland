@@ -455,7 +455,7 @@ footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.
   &:last-child {
     padding: 0;
   }
-  &:hover {
+  &:hover, &.active {
     .services-item__link {
       color: @highland-custom-color-1;
       &:hover {
@@ -471,53 +471,60 @@ footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.
     }
   }
 }
+.services-item__body {
+  background: @highland-custom-color-0;
+  color: #888888;
+  padding: 20px;
+  text-align: center;
+}
+.services__item.colorset-0 {
+  &:hover, &.active {
+    .services-item__body {
+      background: @brand-primary;
+    }
+  }
+}
 .services__item.colorset-1 {
-  &:hover {
+  &:hover, &.active {
     .services-item__body {
       background: @brand-primary2;
     }
   }
 }
 .services__item.colorset-2 {
-  &:hover {
+  &:hover, &.active {
     .services-item__body {
       background: @brand-primary3;
     }
   }
 }
 .services__item.colorset-3 {
-  &:hover {
+  &:hover, &.active {
     .services-item__body {
       background: @brand-primary4;
     }
   }
 }
 .services__item.colorset-4 {
-  &:hover {
+  &:hover, &.active {
     .services-item__body {
       background: @brand-primary5;
     }
   }
 }
 .services__item.colorset-5 {
-  &:hover {
+  &:hover, &.active {
     .services-item__body {
       background: @brand-primary6;
     }
   }
 }
 .services__item.colorset-6 {
-  &:hover {
+  &:hover, &.active {
     .services-item__body {
       background: @brand-primary7;
     }
   }
-}
-.services-item__body {
-  background: @highland-custom-color-0;
-  color: #888888;
-  padding: 20px;
-  text-align: center;
 }
 .services-item__caption {
   display: block;
@@ -574,17 +581,16 @@ footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.
     display: none;
   }
   .services {
-    &:hover {
+    &:hover, &.active {
       .services__item {
         width: 18%;
       }
     }
   }
   .services__item {
-    &:hover {
+    &:hover, &.active {
       width: 28% !important;
       .services-item__body {
-        cursor: pointer;
         text-align: left;
       }
       .services-item__icon {
@@ -602,6 +608,19 @@ footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.
         }
         &:focus {
           display: block;
+        }
+      }
+    }
+    &:hover {
+      .services-item__body {
+        cursor: pointer;
+      }
+    }
+    &.current:hover {
+      .services-item__body {
+        cursor: default;
+        a {
+          text-decoration: none;
         }
       }
     }

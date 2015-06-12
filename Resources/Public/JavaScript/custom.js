@@ -99,4 +99,17 @@ $('.user-status > form > button').on('click', function () {
 
 $(document).ready(function () {
 	$('.alert-dismissable').prepend('<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>');
+	$('.services__item').hover(
+		function() {
+			$('.services__item.current').toggleClass('active');
+		},
+		function() {
+			$('.services__item.current').toggleClass('active');
+		}
+	).click(function() {
+			$(this).find('a').click();
+	});
+	$('.services__item.current').each(function() {
+		$(this).click(function(){return false;});
+	});
 });

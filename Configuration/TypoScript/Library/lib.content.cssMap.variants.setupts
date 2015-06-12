@@ -22,5 +22,9 @@ lib.content.cssMap.variants {
 		button-red = btn btn-red
 		button-turquoise = btn btn-turquoise
 		button-amethyst = btn btn-amethyst
+		button-large = btn btn-lg
+		button-small = btn btn-sm
+		button-extra-small = btn btn-xs
+		button-block = btn btn-block
 	}
 }

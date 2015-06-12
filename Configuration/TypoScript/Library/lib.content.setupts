@@ -55,30 +55,38 @@ tt_content.menu.20.7 {
 	special.value.field = pages
 	maxItems = 5
 	1 = TMENU
-	1.NO {
-		allStdWrap.outerWrap = <li class="services__item colorset-{field:layout}"><div class="services-item__body">|</div></li>
-		allStdWrap.outerWrap.insertData = 1
-		allStdWrap.prepend = TEXT
-		allStdWrap.prepend {
-			field = tx_themes_icon
-			ifEmpty = {$lib.icons.menu.default-icon}
-			stdWrap.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
-			stdWrap.postUserFunc {
-				iconMapping =< lib.icons.cssMap
+	1 {
+		NO {
+			allStdWrap.outerWrap = <li class="services__item colorset-{field:layout}"><div class="services-item__body">|</div></li>
+			allStdWrap.outerWrap.insertData = 1
+			allStdWrap.prepend = TEXT
+			allStdWrap.prepend {
+				field = tx_themes_icon
+				ifEmpty = {$lib.icons.menu.default-icon}
+				stdWrap.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+				stdWrap.postUserFunc {
+					iconMapping =< lib.icons.cssMap
+				}
+
+				required = 1
+				noTrimWrap = |<i class="services-item__icon | fa-3x" aria-hidden="true"></i> |
 			}
-			required = 1
-			noTrimWrap = |<i class="services-item__icon | fa-3x" aria-hidden="true"></i> |
+			allWrap = <div class="services-item__content">|</div>
+			ATagParams = class="services-item__link"
+			stdWrap.override = >>
+			stdWrap.override.if.isFalse.field = subtitle
+			before.cObject = TEXT
+			before.cObject {
+				field = title
+				override.field = subtitle
+				wrap = <p class="services-item__caption">|</p>
+			}
 		}
-		allWrap = <div class="services-item__content">|</div>
-		ATagParams = class="services-item__link"
-		stdWrap.override = >>
-		stdWrap.override.if.isFalse.field = subtitle
-		before.cObject = TEXT
-		before.cObject {
-			field = title
-			override.field = subtitle
-			wrap = <p class="services-item__caption">|</p>
-		}
+		CUR < .NO
+		CUR = 1
+		CUR.allStdWrap.outerWrap = <li class="services__item colorset-{field:layout} current active"><div class="services-item__body">|</div></li>
+		CUR.doNotLinkIt = 1
+		CUR.linkWrap = <a class="services-item__link" name="services__item-active">|</a>
 	}
 	wrap = <ul class="services">|</ul>
 }

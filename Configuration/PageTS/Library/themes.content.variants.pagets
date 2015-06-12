@@ -59,6 +59,10 @@ themes {
 				button-red = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.red
 				button-turquoise = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.turquoise
 				button-amethyst = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.amethyst
+				button-large = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.large
+				button-small = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.small
+				button-extra-small = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.extra-small
+				button-block = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.buttons.block
 			}
 		}
 	}
