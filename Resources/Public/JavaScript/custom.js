@@ -111,5 +111,8 @@ $(document).ready(function () {
 	});
 	$('.services__item.current').each(function() {
 		$(this).click(function(){return false;});
-	});
+	})
+	if($('.services').find('.current').length) {
+		$('.services').addClass('.active');
+	}
 });
