@@ -107,7 +107,10 @@ $(document).ready(function () {
 			$('.services__item.current').toggleClass('active');
 		}
 	).click(function() {
-			$(this).find('a').click();
+			if ($(this).find('a[href]').length) {
+				top.location.href = $(this).find('a').attr('href');
+				return false;
+			}
 	});
 	$('.services__item.current').each(function() {
 		$(this).click(function(){return false;});

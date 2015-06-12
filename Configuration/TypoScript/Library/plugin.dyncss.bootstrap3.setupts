@@ -19,6 +19,8 @@ plugin.tx_dyncss.overrides {
 		6 = TEXT
 		6.value = {$themes.configuration.colors.primary7}
 	}
+	brand-primary1 = TEXT
+	brand-primary1.value = {$themes.configuration.colors.primary}
 	brand-primary2 = TEXT
 	brand-primary2.value = {$themes.configuration.colors.primary2}
 	brand-primary3 = TEXT

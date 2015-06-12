@@ -474,7 +474,7 @@ footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.
 .services__item.colorset-0 {
   &:hover, &.active {
     .services-item__body {
-      background: @brand-primary;
+      background: @brand-primary1;
     }
   }
 }
@@ -578,6 +578,12 @@ footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.
     &:hover, &.active {
       .services__item {
         width: 18%;
+      }
+      &.current {
+        width: 18% !important;
+      }
+      &.current.active {
+        width: 28% !important;
       }
     }
   }
