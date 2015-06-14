@@ -350,9 +350,9 @@ footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.
     font-family: 'Lato', sans-serif;
     font-size: 48px;
     font-weight: 100;
-    margin-left: 70px;
+    margin-left: 0px;
     margin-top: 70px;
-    text-align: center;
+    text-align: left;
     text-shadow: 1px 1px 3px @highland-custom-color-9;
     text-transform: uppercase;
   }
@@ -579,17 +579,13 @@ footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.
       .services__item {
         width: 18%;
       }
-      &.current {
-        width: 18% !important;
-      }
-      &.current.active {
-        width: 28% !important;
+      .services__item.active {
+        width: 28%!important;
       }
     }
   }
   .services__item {
     &:hover, &.active {
-      width: 28% !important;
       .services-item__body {
         text-align: left;
       }
@@ -612,6 +608,7 @@ footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.
       }
     }
     &:hover {
+      width: 28% !important;
       .services-item__body {
         cursor: pointer;
       }
@@ -1235,7 +1232,7 @@ iframe[src="about blank"] {
     }
   }
   .head {
-    background: #69D2E7;
+    background: @brand-primary;
     border-radius: 3px;
     margin-bottom: 50px;
     padding: 30px 10px 10px;
@@ -1248,7 +1245,7 @@ iframe[src="about blank"] {
     .arrow {
       border-left: 120px solid @highland-custom-color-1;
       border-right: 120px solid @highland-custom-color-1;
-      border-top: 30px solid #69D2E7;
+      border-top: 30px solid @brand-primary;
       bottom: -30px;
       height: 30px;
       left: 0;
