@@ -118,7 +118,7 @@ $(document).ready(function () {
 	if($('.services').find('.current').length) {
 		$('.services').addClass('active');
 	}
-	$('. carousel').each(function(){
+	$('.carousel').each(function(){
 		if($(this).find('.item').length < 2) {
 			$(this).find('.carousel-indicators, .carousel-arrow').remove();
 		}
