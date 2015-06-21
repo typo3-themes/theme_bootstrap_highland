@@ -5,4 +5,23 @@ page {
 	bodyTagCObject.field = uid
 	bodyTagCObject.wrap = <body id="pid-|" class="colorset-{levelfield:-1,layout,slide} language-{$themes.languages.current.isoCodeShort}" data-spy="scroll" data-target="{$themes.configuration.bootstrap.javascript.scrollspy.target}" data-offset="{$themes.configuration.bootstrap.javascript.scrollspy.offset}">
 	bodyTagCObject.insertData = 1
+	5 < lib.containerBackgroundImage
+	5.10.10 {
+		if.value = pagets__ContentStartsite
+		if.equals.data = levelfield:-1, backend_layout_next_level, slide
+		if.equals.override.field = backend_layout
+		references.table = pages
+		renderObj {
+			10.stdWrap.wrap.dataWrap = #wrap |
+			20 < .10
+			20.file.width = 992m
+			20.stdWrap.noTrimWrap = | @media (min-width: 768px) {|}|
+			30 < .10
+			30.file.width = 1200m
+			30.stdWrap.noTrimWrap = | @media (min-width: 992px) {|}|
+			40 < .10
+			40.file.width = 1920m
+			40.stdWrap.noTrimWrap = | @media (min-width: 1200px) {|}|
+		}
+	}
 }
