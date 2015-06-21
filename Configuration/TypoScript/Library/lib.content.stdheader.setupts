@@ -23,7 +23,14 @@ lib.stdheader {
 			dataWrap = <div class="row"><div class="col-md-12 block-header"><h2{register:headerClass}><span class="title">|</span><span class="decoration"></span><span class="decoration"></span><span class="decoration"></span></h2></div></div>
 		}
 	}
-
+	20 {
+		1.wrap = <h2 class="hl">|</h2>
+		2.wrap = <h3 class="hl">|</h3>
+		3.wrap = <h4 class="hl">|</h4>
+		4.wrap = <h5 class="hl">|</h5>
+		5.wrap = <h6 class="hl">|</h6>
+		default.wrap = <h3 class="hl">|</h3>
+	}
 	stdWrap {
 		dataWrap = <div class="headline csc-header csc-header-n{cObj:parentRecordNumber}">|</div>
 		dataWrap.override = <header class="headline csc-header csc-header-n{cObj:parentRecordNumber}">|</header>

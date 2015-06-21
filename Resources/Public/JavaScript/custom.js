@@ -98,6 +98,7 @@ $('.user-status > form > button').on('click', function () {
 // =======================
 
 $(document).ready(function () {
+	$('body > div > .wrapper').css('padding-top', $('#menuMain').height());
 	$('.alert-dismissable').prepend('<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>');
 	$('.services__item').hover(
 		function() {
