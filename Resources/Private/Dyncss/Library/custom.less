@@ -1,4 +1,5 @@
 // Color variables (appears count calculates by raw css)
+@highland-title-font: 'Lato';
 @highland-custom-color-1: #ffffff; // Appears 32 times
 @highland-custom-color-3: #428bca; // Appears 12 times
 @highland-custom-color-4: #dddddd; // Appears 10 times
@@ -347,14 +348,17 @@ footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/typo3conf/ext/theme_bootstrap_highland/Resources/Public/Images/bg3.jpg', sizingMethod='scale');
   height: 480px;
   h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: @highland-title-font, sans-serif;
     font-size: 48px;
-    font-weight: 100;
+    font-weight: 300;
     margin-left: 0px;
     margin-top: 70px;
     text-align: left;
     text-shadow: 1px 1px 3px @highland-custom-color-9;
     text-transform: uppercase;
+    padding: 10px!important;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
   }
 }
 .showcase {
@@ -411,7 +415,7 @@ footer h1.hl, footer h2.hl, footer h3.hl, footer h4.hl, footer h5.hl, footer h6.
     }
   }
   li>span {
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.5);
     line-height: 1.8;
     padding: 5px 10px;
   }
