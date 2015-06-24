@@ -85,18 +85,6 @@
 			<trans-unit id="content.buttons.amethyst" xml:space="preserve">
 				<source>Amethyst Button</source>
 			</trans-unit>
-			<trans-unit id="content.buttons.large" xml:space="preserve">
-				<source>Large Button</source>
-			</trans-unit>
-			<trans-unit id="content.buttons.small" xml:space="preserve">
-				<source>Small Button</source>
-			</trans-unit>
-			<trans-unit id="content.buttons.extra-small" xml:space="preserve">
-				<source>Extra Small Button</source>
-			</trans-unit>
-			<trans-unit id="content.buttons.block" xml:space="preserve">
-				<source>Block Button</source>
-			</trans-unit>
 
 			<trans-unit id="content.behaviour.team_listing" xml:space="preserve">
 				<source>Team listing</source>
