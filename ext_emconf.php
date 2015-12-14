@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'TYPO3 compatible adaption of the "Highland - Multipage Business Template" by simpleqode',
 	'category' => 'templates',
 	'shy' => 0,
-	'version' => '0.5.1',
+	'version' => '0.5.2',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -34,7 +34,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'CGLcompliance_note' => '',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '6.2.0-7.6.99',
+			'typo3' => '6.2.0-6.2.99',
 			'theme_bootstrap' => '1.4.3-1.99.99',
 		),
 		'conflicts' => array(),
