@@ -1,5 +1,5 @@
 # theme_bootstrap_highland
-TYPO3 compatible adaption of the "Highland - Multipage Business Template" by simpleqode
+TYPO3 compatible adaptation of the "Highland - Multipage Business Template" by simpleqode
 
 # Lincense
 Extended Wrap Bootstrap license for this theme has been bought by Cybercraft Media Manufactory, Clausthal-Zellerfeld, Germany.
