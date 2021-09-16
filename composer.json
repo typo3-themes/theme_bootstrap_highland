@@ -1,0 +1,17 @@
+{
+  "name": "typo3-themes/theme-bootstrap-highland",
+  "description": "theme-bootstrap-highland",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0+",
+  "require": {
+    "typo3/cms-core": "^8.7 || ^9.5",
+    "typo3-themes/theme-bootstrap": "*"
+  },
+  "replace": {
+    "theme_bootstrap_highland": "self.version"
+  },
+  "autoload": {
+    "classmap": ["."]
+  },
+  "homepage": "http://donate.kay-strobach.de/"
+}
