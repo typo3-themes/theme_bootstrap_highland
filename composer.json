@@ -13,5 +13,10 @@
   "autoload": {
     "classmap": ["."]
   },
-  "homepage": "http://donate.kay-strobach.de/"
+  "homepage": "http://donate.kay-strobach.de/",
+  "extra": {
+      "typo3/cms": {
+         "extension-key": "theme_bootstrap_highland"
+      }
+   }
 }
