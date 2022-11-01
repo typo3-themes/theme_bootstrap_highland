@@ -1,4 +1,0 @@
-page.headerData {
-	185 = TEXT
-	185.value = <link href='{$themes.configuration.font.fontFilePath}' rel='stylesheet' type='text/css'>
-}
