@@ -4,3 +4,7 @@
 lib.icons.menu {
 	default-icon = star
 }
+
+
+# cat=hidden/notsupported;
+themes.configuration.siteSlogan = 
